@@ -1,18 +1,38 @@
 <?php include 'header.php' ?>
+<?php session_destroy(); ?>
 
 <div class="banner">
-<!-- typping effect -->
+<!-- ********************TYPPING EFFECT*********************** -->
     <div class="wrapper">
       <h1>Laurine HERARD</h1>
       <div data-text></div>
-      <span class="item">Développeuse web</span>
-      <span class="item">Webdesigner</span>
+      <span class="item1">Développeuse web</span>
+      <span class="item1">Webdesigner</span>
     </div>
 </div>
 
 
 
-<!-- FORMULAIRE -->
+
+<!-- ************************CAROUSEL************************** -->
+<div class="carouselContainer">
+    <div class="carouselOfImages">
+            <div class="carouselImage">Item</div>
+            <div class="carouselImage">Item</div>
+            <div class="carouselImage">Item</div>
+            <div class="carouselImage">Item</div>
+            <div class="carouselImage">Item</div>
+    </div>
+    <div class="gradient-left">
+    </div>
+    <div class="gradient-right">
+    </div>
+</div>
+
+
+
+
+<!-- ********************FORMULAIRE************************** -->
 
 <div class="container">
   <h1 class="title_meContacter">Me contacter</h1>
@@ -20,27 +40,25 @@
   <?php if(isset($_SESSION['errors'])){
   ?>
     <div class="alert alert-danger">
-      <?= implode('<br>', $_SESSION['errors']); ?>
+      <?= implode('<br>', $_SESSION['errors']);
+      var_dump($_SESSION['errors']);
+
+
+      ?>
     </div>
   <?php
     }
 
    if(isset($_SESSION['success'])){
+
   ?>
+
     <div class="alert alert-success">
       <p>Email bien envoyé !</p>
     </div>
   <?php
     }
-
- if(isset($_SESSION['pbmail'])){
-  ?>
-    <div class="alert alert-danger">
-      <?= $_SESSION['pbmail'] ?>
-    </div>
-  <?php
-    }
-  ?>
+?>
 
 
     <form action="contact.php" method="post">
@@ -58,7 +76,12 @@
 
       <div class="form-group">
         <label for="email">Adresse mail :</label>
-        <input class="form-control input-form" type="text" name="user_email" id="email" value="" >
+        <input class="form-control input-form" type="text" name="user_email" id="email" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$">
+      </div>
+
+      <div class="form-group">
+        <label for="object">Objet :</label>
+        <input class="form-control input-form" type="text" name="user_object" id="object" value="" required>
       </div>
 
       <div class="form-group">
@@ -72,12 +95,6 @@
 
     </form>
 </div>
-
-
-
-
-
-
 
 
 
