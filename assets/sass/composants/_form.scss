@@ -1,0 +1,41 @@
+.formulaire{
+  background-color: #679B9B;
+}
+.title_meContacter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+
+}
+form {
+  margin : auto;
+  width: 60%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.input-form {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+input:invalid {
+  border-color: #900;
+
+}
+input:focus:invalid {
+  outline: none;
+}
+.error {
+  width: 100%;
+  padding: 0;
+  color: white;
+  background-color: #FDD;
+  border-radius: 0 0 5px 5px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.error.active {
+  padding: 0.3em;
+}

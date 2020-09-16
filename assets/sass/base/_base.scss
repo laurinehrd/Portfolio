@@ -1,0 +1,12 @@
+@import "../utils/variables";
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+  font-family: 'Raleway';
+}
+h2 {
+  padding-top: $paddingTop;
+}
