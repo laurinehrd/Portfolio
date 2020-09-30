@@ -9,20 +9,69 @@ body {
   font-family: "Raleway";
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.body {
+  z-index: 2;
+}
+
 h2 {
   padding-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .logo {
   position: fixed;
-  top: 1rem;
-  left: 1rem;
-  width: 5.5rem;
+  top: 0;
   z-index: 9999;
+  width: 10rem;
 }
 
-.logo-big {
-  display: none;
+.uk-divider-vertical {
+  height: 30vh;
+  position: absolute;
+  left: 60%;
+  top: 25%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3rem;
+}
+
+.informations {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.item-media {
+  display: flex;
+  justify-content: center;
+}
+.item-media a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.info-media {
+  margin-top: 3rem;
+}
+.info-media img {
+  width: 3rem;
+}
+
+.lien {
+  text-decoration: none;
+}
+.lien:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .header-bg {
@@ -31,7 +80,7 @@ h2 {
 
 .banner {
   background-size: 100%;
-  height: 755px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -46,6 +95,10 @@ h2 {
   font-size: 2rem;
 }
 
+#typping-effect {
+  display: none;
+}
+
 .item1 {
   visibility: hidden;
   display: none;
@@ -58,31 +111,6 @@ h2 {
   font-size: 4rem;
 }
 
-/* > div {
-    min-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: flex;
-    align-items: flex-end;
-    font-weight: bold;
-    color: orange;
-
-    &:after {
-    content: "";
-    width: 10px;
-    height: 4px;
-    display: block;
-    background: black;
-    color: orange;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    animation-duration: 350ms;
-    animation-name: fade;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    }
-  }
-} */
 @keyframes fade {
   from {
     opacity: 1;
@@ -96,7 +124,7 @@ h2 {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 15px;
+  border-radius: 2px;
   color: white;
 }
 
@@ -110,32 +138,41 @@ h2 {
   border: 3px solid white;
 }
 
-.formulaire {
-  background-color: #679B9B;
+.hover {
+  height: 395px;
+  margin-bottom: 0;
+  padding: 4.8rem;
 }
 
-.title_meContacter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1em;
+.formulaire {
+  position: relative;
+  margin-bottom: 4rem;
 }
 
 form {
-  margin: auto;
-  width: 60%;
+  width: 90%;
   padding: 1em;
   border: 1px solid #CCC;
-  border-radius: 1em;
+}
+form img {
+  width: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .input-form {
   border: none;
   border-bottom: 2px solid black;
+  border-radius: 0;
   background-color: transparent;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
-input:invalid {
-  border-color: #900;
+.form-control:focus {
+  background-color: transparent;
+  border-color: white;
 }
 
 input:focus:invalid {
@@ -156,21 +193,421 @@ input:focus:invalid {
   padding: 0.3em;
 }
 
-.flecheIcon {
+.bouton-submit {
+  color: #0d6efd;
+  background-color: white;
+}
+.bouton-submit:hover {
+  background-color: #0d6efd;
+}
+
+.about-me h3 {
+  text-align: center;
+}
+.about-me .flecheIcon {
   color: #0d6efd !important;
 }
 
-.path {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  animation: dash 8s linear infinite;
-  /* ou linear forwards */
+.competences {
+  background-color: #AACFCF;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.competences img {
+  width: 3rem;
+}
+.competences h3 {
+  padding-top: 1rem;
+}
+.competences .card-competences {
+  margin: 1rem;
 }
 
-@keyframes dash {
+.card-position {
+  display: flex;
+  justify-content: center;
+}
+
+#Calque_1 {
+  stroke-dashoffset: 130.5001525879px;
+  stroke-dasharray: 130.5001525879px;
+  animation: draw 3s ease-in-out forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0.36s;
+  }
   to {
     stroke-dashoffset: 0;
   }
+}
+#line {
+  stroke-dashoffset: 81.1695709229px;
+  stroke-dasharray: 81.1695709229px;
+  animation: drawline 3s ease-in-out forwards;
+}
+
+@keyframes drawline {
+  from {
+    stroke-dashoffset: 0.6s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f1 {
+  stroke-dashoffset: 14.3356246948px;
+  stroke-dasharray: 14.3356246948px;
+  animation: drawf1 6s ease-in-out forwards;
+}
+
+@keyframes drawf1 {
+  from {
+    stroke-dashoffset: 0.72s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t1 {
+  stroke-dashoffset: 11.9340381622px;
+  stroke-dasharray: 11.9340381622px;
+  animation: drawt1 5s ease-in-out forwards;
+}
+
+@keyframes drawt1 {
+  from {
+    stroke-dashoffset: 0.84s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f2 {
+  stroke-dashoffset: 19.0764694214px;
+  stroke-dasharray: 19.0764694214px;
+  animation: drawf2 5s ease-in-out forwards;
+}
+
+@keyframes drawf2 {
+  from {
+    stroke-dashoffset: 0.96s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t2 {
+  stroke-dashoffset: 9.2472486496px;
+  stroke-dasharray: 9.2472486496px;
+  animation: drawt2 5s ease-in-out forwards;
+}
+
+@keyframes drawt2 {
+  from {
+    stroke-dashoffset: 1.08s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f3 {
+  stroke-dashoffset: 12.38397789px;
+  stroke-dasharray: 12.38397789px;
+  animation: drawf3 6s ease-in-out forwards;
+}
+
+@keyframes drawf3 {
+  from {
+    stroke-dashoffset: 1.2s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t3 {
+  stroke-dashoffset: 7.6643095016px;
+  stroke-dasharray: 7.6643095016px;
+  animation: drawt3 7s ease-in-out forwards;
+}
+
+@keyframes drawt3 {
+  from {
+    stroke-dashoffset: 1.31s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f4 {
+  stroke-dashoffset: 14.0542879105px;
+  stroke-dasharray: 14.0542879105px;
+  animation: drawf4 8s ease-in-out forwards;
+}
+
+@keyframes drawf4 {
+  from {
+    stroke-dashoffset: 1.44s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t4 {
+  stroke-dashoffset: 14.0542879105px;
+  stroke-dasharray: 14.0542879105px;
+  animation: drawf4 7s ease-in-out forwards;
+}
+
+@keyframes drawf4 {
+  from {
+    stroke-dashoffset: 1.56s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f5 {
+  stroke-dashoffset: 15.8748111725px;
+  stroke-dasharray: 15.8748111725px;
+  animation: drawf5 5s ease-in-out forwards;
+}
+
+@keyframes drawf5 {
+  from {
+    stroke-dashoffset: 1.68s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t5 {
+  stroke-dashoffset: 10.7427968979px;
+  stroke-dasharray: 10.7427968979px;
+  animation: drawt5 6s ease-in-out forwards;
+}
+
+@keyframes drawt5 {
+  from {
+    stroke-dashoffset: 1.79s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f6 {
+  stroke-dashoffset: 16.0225963593px;
+  stroke-dasharray: 16.0225963593px;
+  animation: drawf6 8s ease-in-out forwards;
+}
+
+@keyframes drawf6 {
+  from {
+    stroke-dashoffset: 1.92s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t6 {
+  stroke-dashoffset: 7.6727113724px;
+  stroke-dasharray: 7.6727113724px;
+  animation: drawt6 9s ease-in-out forwards;
+}
+
+@keyframes drawt6 {
+  from {
+    stroke-dashoffset: 2.04s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f7 {
+  stroke-dashoffset: 16.4624195099px;
+  stroke-dasharray: 16.4624195099px;
+  animation: drawf7 9s ease-in-out forwards;
+}
+
+@keyframes drawf7 {
+  from {
+    stroke-dashoffset: 2.16s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t7 {
+  stroke-dashoffset: 12.1018457413px;
+  stroke-dasharray: 12.1018457413px;
+  animation: drawt7 7s ease-in-out forwards;
+}
+
+@keyframes drawt7 {
+  from {
+    stroke-dashoffset: 2.28s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f8 {
+  stroke-dashoffset: 12.1998701096px;
+  stroke-dasharray: 12.1998701096px;
+  animation: drawf8 8s ease-in-out forwards;
+}
+
+@keyframes drawf8 {
+  from {
+    stroke-dashoffset: 2.4s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#f9 {
+  stroke-dashoffset: 10.4595851898px;
+  stroke-dasharray: 10.4595851898px;
+  animation: drawf9 7s ease-in-out forwards;
+}
+
+@keyframes drawf9 {
+  from {
+    stroke-dashoffset: 2.52s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t8 {
+  stroke-dashoffset: 9.7630629539px;
+  stroke-dasharray: 9.7630629539px;
+  animation: drawt8 7s ease-in-out forwards;
+}
+
+@keyframes drawt8 {
+  from {
+    stroke-dashoffset: 2.63s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#t9 {
+  stroke-dashoffset: 17.1863431931px;
+  stroke-dasharray: 17.1863431931px;
+  animation: drawt9 7s ease-in-out forwards;
+}
+
+@keyframes drawt9 {
+  from {
+    stroke-dashoffset: 2.76s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#t10 {
+  stroke-dashoffset: 12.6993637085px;
+  stroke-dasharray: 12.6993637085px;
+  animation: drawt10 8s ease-in-out forwards;
+}
+
+@keyframes drawt10 {
+  from {
+    stroke-dashoffset: 2.88s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f11 {
+  stroke-dashoffset: 16.8483715057px;
+  stroke-dasharray: 16.8483715057px;
+  animation: drawf11 10s ease-in-out forwards;
+}
+
+@keyframes drawf11 {
+  from {
+    stroke-dashoffset: 3s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t11 {
+  stroke-dashoffset: 12.466758728px;
+  stroke-dasharray: 12.466758728px;
+  animation: drawt11 9s ease-in-out forwards;
+}
+
+@keyframes drawt11 {
+  from {
+    stroke-dashoffset: 3.12s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#f12 {
+  stroke-dashoffset: 15.5754909515px;
+  stroke-dasharray: 15.5754909515px;
+  animation: drawf12 11s ease-in-out forwards;
+}
+
+@keyframes drawf12 {
+  from {
+    stroke-dashoffset: 3.52s;
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #FFFFFF;
+  }
+}
+#t12 {
+  stroke-dashoffset: 7.6832489967px;
+  stroke-dasharray: 7.6832489967px;
+  animation: drawt12 9s ease-in-out forwards;
+}
+
+@keyframes drawt12 {
+  from {
+    stroke-dashoffset: 3.88s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  height: 10vh;
+  padding: 1.9rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

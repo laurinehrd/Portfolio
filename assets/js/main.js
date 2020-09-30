@@ -37,6 +37,13 @@ async function erase() {
 
 writingAll('item1', 'data-text');
 
+// typping effect qui apparait au bout de 5s
+window.onload = function(){
+  setTimeout(function(){
+    document.getElementById("typping-effect").style.display = "block";
+  }, 5000);
+}
+
 
 
 
@@ -54,13 +61,6 @@ writingAll('item1', 'data-text');
 
 
 
-// logo
-var logo = document.getElementById('logoIni');
-logo.addEventListener("mouseover", function(event){
-  document.getElementById('logoIni').style.display = "none";
-  document.getElementById('logoBig').style.display = "block";
-});
-logo.addEventListener("mouseout", function(event){
-  document.getElementById('logoIni').style.display = "block";
-  document.getElementById('logoBig').style.display = "none";
-});
+
+
+// *********************** SVG **********************************

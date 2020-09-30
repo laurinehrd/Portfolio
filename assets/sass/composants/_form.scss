@@ -1,29 +1,45 @@
 .formulaire{
-  background-color: #679B9B;
+  // background-color: #679B9B;
+  position: relative;
+  margin-bottom: 4rem;
 }
-.title_meContacter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1em;
 
-}
 form {
-  margin : auto;
-  width: 60%;
+  width: 90%;
   padding: 1em;
   border: 1px solid #CCC;
-  border-radius: 1em;
+  img{
+    width: 2rem;
+    margin: {
+      left: 0.5rem;
+      right: 0.5rem;
+    }
+  }
 }
 
 .input-form {
   border: none;
-  border-bottom: 2px solid black;
+  border :{
+    bottom: 2px solid black;
+    radius: 0;
+  }
   background-color: transparent;
+  color: white;
+  padding: 1rem;
+  margin: {
+    bottom: 1rem;
+  }
 }
-input:invalid {
-  border-color: #900;
 
+.form-control:focus{
+  background-color: transparent;
+  border-color: white;
 }
+
+// input:invalid {
+//   border-color: #900;
+//
+// }
 input:focus:invalid {
   outline: none;
 }
@@ -38,4 +54,11 @@ input:focus:invalid {
 }
 .error.active {
   padding: 0.3em;
+}
+.bouton-submit{
+  color: #0d6efd;
+  background-color: white;
+  &:hover{
+    background-color: #0d6efd;
+  }
 }

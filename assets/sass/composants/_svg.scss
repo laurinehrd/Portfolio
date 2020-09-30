@@ -1,0 +1,348 @@
+#Calque_1{
+  stroke-dashoffset: 130.50015258789062px;
+  stroke-dasharray: 130.50015258789062px;
+  animation: draw 3s ease-in-out forwards;
+}
+@keyframes draw {
+  from{
+  stroke-dashoffset: 0.36s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+
+#line{
+  stroke-dashoffset: 81.16957092285156px;
+  stroke-dasharray: 81.16957092285156px;
+  animation: drawline 3s ease-in-out forwards;
+}
+@keyframes drawline {
+  from{
+  stroke-dashoffset: 0.6s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f1{
+  stroke-dashoffset: 14.335624694824219px;
+  stroke-dasharray: 14.335624694824219px;
+  animation: drawf1 6s ease-in-out forwards;
+}
+@keyframes drawf1 {
+  from{
+  stroke-dashoffset: 0.72s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t1{
+  stroke-dashoffset: 11.934038162231445px;
+  stroke-dasharray: 11.934038162231445px;
+  animation: drawt1 5s ease-in-out forwards;
+}
+@keyframes drawt1 {
+  from{
+  stroke-dashoffset: 0.84s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f2{
+  stroke-dashoffset: 19.07646942138672px;
+  stroke-dasharray: 19.07646942138672px;
+  animation: drawf2 5s ease-in-out forwards;
+}
+@keyframes drawf2 {
+  from{
+  stroke-dashoffset: 0.96s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t2{
+  stroke-dashoffset: 9.247248649597168px;
+  stroke-dasharray: 9.247248649597168px;
+  animation: drawt2 5s ease-in-out forwards;
+}
+@keyframes drawt2 {
+  from{
+  stroke-dashoffset: 1.08s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f3{
+  stroke-dashoffset: 12.383977890014648px;
+  stroke-dasharray: 12.383977890014648px;
+  animation: drawf3 6s ease-in-out forwards;
+}
+@keyframes drawf3 {
+  from{
+  stroke-dashoffset: 1.2s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t3{
+  stroke-dashoffset: 7.664309501647949px;
+  stroke-dasharray: 7.664309501647949px;
+  animation: drawt3 7s ease-in-out forwards;
+}
+@keyframes drawt3 {
+  from{
+  stroke-dashoffset: 1.31s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f4{
+  stroke-dashoffset: 14.054287910461426px;
+  stroke-dasharray: 14.054287910461426px;
+  animation: drawf4 8s ease-in-out forwards;
+}
+@keyframes drawf4 {
+  from{
+  stroke-dashoffset: 1.44s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t4{
+  stroke-dashoffset: 14.054287910461426px;
+  stroke-dasharray: 14.054287910461426px;
+  animation: drawf4 7s ease-in-out forwards;
+}
+@keyframes drawf4 {
+  from{
+  stroke-dashoffset: 1.56s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f5{
+  stroke-dashoffset: 15.874811172485352px;
+  stroke-dasharray: 15.874811172485352px;
+  animation: drawf5 5s ease-in-out forwards;
+}
+@keyframes drawf5 {
+  from{
+  stroke-dashoffset: 1.68s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t5{
+  stroke-dashoffset: 10.742796897888184px;
+  stroke-dasharray: 10.742796897888184px;
+  animation: drawt5 6s ease-in-out forwards;
+}
+@keyframes drawt5 {
+  from{
+  stroke-dashoffset: 1.79s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f6{
+  stroke-dashoffset: 16.02259635925293px;
+  stroke-dasharray: 16.02259635925293px;
+  animation: drawf6 8s ease-in-out forwards;
+}
+@keyframes drawf6 {
+  from{
+  stroke-dashoffset: 1.92s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t6{
+  stroke-dashoffset: 7.672711372375488px;
+  stroke-dasharray: 7.672711372375488px;
+  animation: drawt6 9s ease-in-out forwards;
+}
+@keyframes drawt6 {
+  from{
+  stroke-dashoffset: 2.04s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f7{
+  stroke-dashoffset: 16.462419509887695px;
+  stroke-dasharray: 16.462419509887695px;
+  animation: drawf7 9s ease-in-out forwards;
+}
+@keyframes drawf7 {
+  from{
+  stroke-dashoffset: 2.16s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t7{
+  stroke-dashoffset: 12.101845741271973px;
+  stroke-dasharray: 12.101845741271973px;
+  animation: drawt7 7s ease-in-out forwards;
+}
+@keyframes drawt7 {
+  from{
+  stroke-dashoffset: 2.28s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f8{
+  stroke-dashoffset: 12.199870109558105px;
+  stroke-dasharray: 12.199870109558105px;
+  animation: drawf8 8s ease-in-out forwards;
+}
+@keyframes drawf8 {
+  from{
+  stroke-dashoffset: 2.4s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#f9{
+  stroke-dashoffset: 10.459585189819336px;
+  stroke-dasharray: 10.459585189819336px;
+  animation: drawf9 7s ease-in-out forwards;
+}
+@keyframes drawf9 {
+  from{
+  stroke-dashoffset: 2.52s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t8{
+  stroke-dashoffset: 9.763062953948975px;
+  stroke-dasharray: 9.763062953948975px;
+  animation: drawt8 7s ease-in-out forwards;
+}
+@keyframes drawt8 {
+  from{
+  stroke-dashoffset: 2.63s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#t9{
+  stroke-dashoffset: 17.1863431930542px;
+  stroke-dasharray: 17.1863431930542px;
+  animation: drawt9 7s ease-in-out forwards;
+}
+@keyframes drawt9 {
+  from{
+  stroke-dashoffset: 2.76s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#t10{
+  stroke-dashoffset: 12.699363708496094px;
+  stroke-dasharray: 12.699363708496094px;
+  animation: drawt10 8s ease-in-out forwards;
+}
+@keyframes drawt10 {
+  from{
+  stroke-dashoffset: 2.88s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f11{
+  stroke-dashoffset: 16.848371505737305px;
+  stroke-dasharray: 16.848371505737305px;
+  animation: drawf11 10s ease-in-out forwards;
+}
+@keyframes drawf11 {
+  from{
+  stroke-dashoffset: 3s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t11{
+  stroke-dashoffset: 12.466758728027344px;
+  stroke-dasharray: 12.466758728027344px;
+  animation: drawt11 9s ease-in-out forwards;
+}
+@keyframes drawt11 {
+  from{
+  stroke-dashoffset: 3.12s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
+#f12{
+  stroke-dashoffset: 15.575490951538086px;
+  stroke-dasharray: 15.575490951538086px;
+  animation: drawf12 11s ease-in-out forwards;
+}
+@keyframes drawf12 {
+  from{
+  stroke-dashoffset: 3.52s;
+  fill: transparent;
+  }
+  to{
+  stroke-dashoffset: 0;
+  fill: #FFFFFF;
+  }
+}
+#t12{
+  stroke-dashoffset: 7.683248996734619px;
+  stroke-dasharray: 7.683248996734619px;
+  animation: drawt12 9s ease-in-out forwards;
+}
+@keyframes drawt12 {
+  from{
+  stroke-dashoffset: 3.88s;
+  }
+  to{
+  stroke-dashoffset: 0;
+  }
+}
