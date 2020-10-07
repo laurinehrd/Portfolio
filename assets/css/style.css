@@ -201,16 +201,26 @@ input:focus:invalid {
   background-color: #0d6efd;
 }
 
+.about-me {
+  position: relative;
+}
 .about-me h3 {
   text-align: center;
 }
 .about-me .flecheIcon {
   color: #0d6efd !important;
 }
+.about-me .icon-fleche {
+  padding-bottom: 3rem;
+}
+.about-me img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 .competences {
   background-color: #AACFCF;
-  margin-top: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }

@@ -81,9 +81,7 @@
   <div class="row">
 
     <div class="col-lg-5 pr-5">
-      <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-card-body">
-        <img src="assets/images/post2.jpg" alt="">
-      </div>
+        <img src="assets/images/photo-illustration.png" alt="illustration portrait">
     </div>
 
     <div class="col-lg-7 pl-5">
@@ -150,7 +148,7 @@
             </div>
             <div class="">
               <h3>Back end</h3>
-              <p>Du beau c'est bien, mais j'aime aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
+              <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
               <!-- <p>php, symfony, javascript, mysql, dbmaria</p> -->
             </div>
         </div>
@@ -162,7 +160,7 @@
             </div>
             <div class="">
               <h3>Design et créativité</h3>
-              <p>J'aime beaucoup m'occuper à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
+              <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
               <!-- <p>Illustrator, Photoshop, Indesign, AdobeXd</p> -->
             </div>
         </div>
