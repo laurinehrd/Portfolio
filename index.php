@@ -87,7 +87,7 @@
     <div class="col-lg-7 pl-5">
       <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
         <ul class="uk-slideshow-items">
-            <li class="py-4 px-3">
+            <li class="py-3 px-3">
               <div class="uk-card uk-card-default uk-card-hover uk-card-large uk-card-body">
                 <h3 class="uk-card-title">Mon profil <br></h3>
                 <p>Hello ! Et bienvenue sur mon portfolio.<br>
@@ -105,12 +105,12 @@
               <div class="uk-card uk-card-default uk-card-hover uk-card-large uk-card-body">
                 <h3 class="uk-card-title">Mes passions</h3>
                 <p>Pendant ma reconversion, je me suis initiée au graphisme et je me suis trouvé une passion : créer des illustrations (avec un petit crush pour le flat design). Pour trouver l'inspiration, je me suis alliée avec mes autres centres d'intérêt : les voyages et la nature.<br>
-                Voir mes illustrations</p>
+                <a href="#illustrations">-> Voir mes illustrations</a></p>
               </div>
             </li>
         </ul>
 
-        <div class="icon-fleche text-center">
+        <div class="icon-fleche text-center mt-3">
           <a class="flecheIcon uk-position-medium my-0" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
           <a class="flecheIcon uk-position-medium my-0" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         </div>
@@ -135,7 +135,7 @@
             <div class="">
               <h3>Front end</h3>
               <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
-              <!-- <p>html, css, sass, bootstrap</p> -->
+              <!-- <p>html, css, sass, bootstrap, wordpress</p> -->
             </div>
         </div>
       </div>
@@ -166,13 +166,26 @@
 
 
 
+<!-- ************************MES REALISATION************************** -->
 
-<!-- ************************CAROUSEL************************** -->
+<div class="realisation linear-gradient">
+
+  <h2 class="text-center mb-0">Mes réalisations</h2>
+
+  <div class="container">
+    <h3>À l'Access Code School :</h3>
+    <p class="w-50">Durant mes 6 mois de formation, j'ai travaillé sur différents projets qui m'ont permis d'accroitre mes compétences, en apprenant différents langages, aussi bien sur des projets individuels que des projets en groupe.</p>
 
 
 
-<div class="carousselIllustrations uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
+    <h3 id="illustrations">Mes illustrations personnelles :</h3>
+    <p class="w-50">Je me suis formé en autodidacte sur la suite Adobe, et j'ai tout de suite adoré créer des visuels. J'ai repris mes photos de voyages que j'ai adapté en illustrations, et voilà le résultat !</p>
+
+  </div>
+
+
+  <div class="carousselIllustrations uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
@@ -217,12 +230,11 @@
           </div>
         </li>
     </ul>
-
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+  </div>
 
 </div>
-
 
 
 <!-- ********************FORMULAIRE************************** -->

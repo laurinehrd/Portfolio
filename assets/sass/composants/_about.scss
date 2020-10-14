@@ -4,7 +4,7 @@
     text-align: center;
   }
   .flecheIcon{
-    color: #0d6efd!important;
+    color: $primary!important;
   }
   .icon-fleche{
     padding-bottom: 3rem;
@@ -13,5 +13,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+  a{
+    color: black;
+    font-style: italic;
+  }
+  a:hover{
+    color: blue;
   }
 }

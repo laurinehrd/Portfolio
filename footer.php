@@ -1,6 +1,6 @@
 <div class="footer header-bg uk-background-fixed uk-background-cover">
     <!-- LOGO en bg pour uk-bg-fixed-->
-    <p>2020 | Tous droits réservés | Laurine Herard</p>
+    <p>Tous droits réservés - 2020 | <a href="#">Mentions légales</a> | Illustrations par Laurine Herard</p>
 </div>
 
 
