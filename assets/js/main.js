@@ -43,24 +43,3 @@ window.onload = function(){
     document.getElementById("typping-effect").style.display = "block";
   }, 5000);
 }
-
-
-
-
-// *******************A PROPOS DE MOI*********************
-
-
-
-
-
-
-
-
-
-// **************************CAROUSEL*****************************
-
-
-
-
-
-// *********************** SVG **********************************

@@ -81,7 +81,7 @@
   <div class="row">
 
     <div class="col-lg-5 pr-5">
-        <img src="assets/images/photo-illustration.png" alt="illustration portrait">
+        <img src="assets/images/photo-illustration.png" alt="illustration portrait" oncontextmenu="return false" onmousedown="return false">
     </div>
 
     <div class="col-lg-7 pl-5">
@@ -131,9 +131,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="card-competences p-3 bg-transparent text-center">
-            <div class="">
-                <img src="assets/images/icone-fleur.png" alt="">
-            </div>
+                <img src="assets/images/icone-fleur.png" alt="icone fleur" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Front end</h3>
               <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
@@ -143,9 +141,7 @@
       </div>
       <div class="col-lg-4">
         <div class="card-competences p-3 bg-transparent text-center">
-            <div class="">
-                <!-- <img src="assets/images/linkedin_2.png" alt=""> -->
-            </div>
+          <img src="assets/images/icone-arbre.png" alt="icone arbre" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Back end</h3>
               <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
@@ -155,9 +151,7 @@
       </div>
       <div class="col-lg-4">
         <div class="card-competences p-3 bg-transparent text-center">
-            <div class="">
-              <!-- <img src="assets/images/linkedin_2.png" alt=""> -->
-            </div>
+          <img src="assets/images/icone-ampoule.png" alt="icone ampoule fleuris" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Design et créativité</h3>
               <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
@@ -182,43 +176,43 @@
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-              <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Preikestolen-compressor.jpg" alt="">
+              <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">
               <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Preikestolen</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Bryggen.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Bryggen.jpg" alt="illustration Bryggen" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Bryggen</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Vik-compressor.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Vik-compressor.jpg" alt="illustration Vik" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Vik</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/bryggen2.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/bryggen2.jpg" alt="illustration Bryggen minimaliste" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Bryggen</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Kakashi.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Kakashi.jpg" alt="illustration Kakashi" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Kakashi</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Itachi.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Itachi.jpg" alt="illustration Itachi" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Itachi</h3></div>
           </div>
         </li>
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Naruto.jpg" alt="">
+            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Naruto.jpg" alt="illustration Naruto" oncontextmenu="return false" onmousedown="return false">
             <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Naruto</h3></div>
           </div>
         </li>
