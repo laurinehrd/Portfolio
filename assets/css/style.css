@@ -165,7 +165,6 @@ form img {
   border-bottom: 2px solid black;
   border-radius: 0;
   background-color: transparent;
-  color: white;
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -223,9 +222,6 @@ input:focus:invalid {
   background-color: #AACFCF;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.competences img {
-  width: 3rem;
 }
 .competences h3 {
   padding-top: 1rem;
