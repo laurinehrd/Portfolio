@@ -1,3 +1,35 @@
-.linear-gradient{
+.projet{
   background: linear-gradient(white, $primary);
+  .sous-titre{
+    font-size: 2rem;
+  }
+
+  .slider-projets{
+    margin: {
+      top: 2rem;
+      bottom: 5rem;
+    }
+    .uk-overlay-default{
+      background: rgba(142,163,191,0.7);
+    }
+    
+  }
+  .contour{
+    border: 3px solid white;
+    padding: 0.8rem;
+  }
+  .titre-projet{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    transition: all .4s ease-in;
+    h3{
+      font-size: 2rem;
+      margin-top: 5rem;
+    }
+    p{
+      font-size: 1.3rem;
+    }
+  }
+  
 }

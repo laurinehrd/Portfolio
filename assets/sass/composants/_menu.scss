@@ -3,7 +3,7 @@
         top: 2rem;
         right: 2rem;
     }
-    width: 2.5rem;
+    width: 40px;
     display: block;
     transition: all .3s;
     cursor: pointer;
@@ -46,6 +46,7 @@
             transform: rotate(45deg);
             transition-delay: .3s;
             height: 2px;
+            width: 2.5rem;
         }
         .bar:nth-of-type(2){
             opacity: 0;
@@ -56,6 +57,19 @@
             transform: rotate(-45deg);
             transition-delay: .3s;
             height: 2px;
+            width: 2.5rem;
+        }
+    }
+}
+
+.menu{
+
+    #overlay-content{
+        display: none;
+        flex-direction: column;
+        a{
+            padding: 1rem;
+            text-align: center;
         }
     }
 }

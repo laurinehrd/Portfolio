@@ -57,7 +57,18 @@ function showLogo(){
 }
 
 // burger menu
-document.querySelector(".burger-menu").addEventListener("click", function(){
-  document.querySelector(".burger-menu").classList.toggle("burger-menu--opened");
-  document.querySelector(".burger-menu").classList.toggle("burger-menu--closed");
+
+var burger = document.querySelector(".burger-menu");
+var overlay = document.getElementById("overlay-content");
+
+burger.addEventListener("click", function(){
+  if(burger.classList.toggle("burger-menu--opened")){
+    overlay.style.display = "flex";
+  }else{
+    overlay.style.display = "none";
+  }
+  
 });
+
+
+

@@ -6,13 +6,23 @@
 <!-- <div class="header-bg uk-background-cover uk-light uk-flex" uk-parallax="bgy: -500"> -->
 <header class="header-bg uk-background-fixed uk-light uk-background-cover">
 
-  <div class="d-flex justify-content-end">
+  <div class="menu d-flex justify-content-end">
+
+    <div id="overlay-content">
+      <a href="#découvrir">Me découvrir</a>
+      <a href="#compétences">Mes compétences</a>
+      <a href="#projets">Mes projets</a>
+      <a href="#contact">Me contacter</a>
+    </div>
+
     <div class="burger-menu burger-menu--closed">
       <div class="bar"></div>
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
+
   </div>
+
 
   <div class="banner">
     <div class="text-center">
@@ -135,7 +145,7 @@
 <!--****************************** COMPETENCES ***********************-->
 <div class="competences">
   <div class="container">
-    <h2 class="text-center">Mes compétences</h2>
+    <h2 class="text-center" id="compétences">Mes compétences</h2>
 
     <div class="row">
       <div class="col-lg-4">
@@ -175,21 +185,109 @@
 
 
 
-<!-- ************************MES REALISATION************************** -->
+<!-- ************************MES PROJETS************************** -->
 
-<div class="realisation linear-gradient">
+<div class="projet">
 
-  <h2 class="text-center mb-0">Mes réalisations</h2>
+  <h2 class="text-center" id="projets">Mes projets</h2>
 
   <div class="container">
-    <h3>À l'Access Code School :</h3>
-    <p class="w-50">Durant mes 6 mois de formation, j'ai travaillé sur différents projets qui m'ont permis d'accroitre mes compétences, en apprenant différents langages, aussi bien sur des projets individuels que des projets en groupe.</p>
+
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h2 class="sous-titre">À l'Access Code School</h2>
+      </div>
+      <div class="col-lg-6 text-center pt-4">
+        <p class="">Durant mes 6 mois de formation, j'ai travaillé sur différents projets qui m'ont permis d'accroitre mes compétences, en apprenant différents langages, aussi bien sur des projets individuels que des projets en groupe.</p>
+      </div>
+    </div>
+
+
+    <div uk-slider="" class="slider-projets">
+
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="1">
+
+        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+          <li>
+            <a href="#">
+              <div class="uk-card">
+                <div class="uk-card-panel contour uk-transition-toggle">
+                  <img  src="assets/images/projet1.png" alt="">
+                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                    <h3 class="">Titre</h3>
+                    <p class="">Contenu</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+            <li>
+              <a href="#">
+                <div class="uk-card">
+                  <div class="uk-card-panel contour uk-transition-toggle">
+                    <img  src="assets/images/projet1.png" alt="">
+                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                      <h3 class="">Titre</h3>
+                      <p class="">Contenu</p>
+                  </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="uk-card">
+                  <div class="uk-card-panel contour uk-transition-toggle">
+                    <img  src="assets/images/projet1.png" alt="">
+                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                      <h3 class="">Titre</h3>
+                      <p class="">Contenu</p>
+                  </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="uk-card">
+                  <div class="uk-card-panel contour uk-transition-toggle">
+                    <img  src="assets/images/projet1.png" alt="">
+                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                      <h3 class="">Titre</h3>
+                      <p class="">Contenu</p>
+                  </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+        </ul>
+
+          <a class="uk-position-center-left uk-position-medium" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-medium" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+      </div>
+
+    </div>
 
 
 
 
-    <h3 id="illustrations">Mes illustrations personnelles :</h3>
-    <p class="w-50">Je me suis formé en autodidacte sur la suite Adobe, et j'ai tout de suite adoré créer des visuels. J'ai repris mes photos de voyages que j'ai adapté en illustrations, et voilà le résultat !</p>
+
+
+
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h2  class="sous-titre" id="illustrations">Mes illustrations personnelles</h2>
+      </div>
+      <div class="col-lg-6 text-center pt-4">
+        <p class="">Je me suis formé en autodidacte sur la suite Adobe, et j'ai tout de suite adoré créer des visuels. J'ai repris mes photos de voyages que j'ai adapté en illustrations, et voilà le résultat !</p>
+      </div>
+    </div>
+
+
+
+
 
   </div>
 
@@ -251,7 +349,7 @@
   <div class="container">
 
     <div class="row">
-      <h2 class="text-center">Me contacter</h2>
+      <h2 class="text-center" id="contact">Me contacter</h2>
       <div class="col-lg-6">
 
 

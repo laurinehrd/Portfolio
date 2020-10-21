@@ -161,7 +161,7 @@ h2 {
 .burger-menu {
   margin-top: 2rem;
   margin-right: 2rem;
-  width: 2.5rem;
+  width: 40px;
   display: block;
   transition: all 0.3s;
   cursor: pointer;
@@ -204,6 +204,7 @@ h2 {
   transform: rotate(45deg);
   transition-delay: 0.3s;
   height: 2px;
+  width: 2.5rem;
 }
 .burger-menu--opened .bar:nth-of-type(2) {
   opacity: 0;
@@ -214,6 +215,16 @@ h2 {
   transform: rotate(-45deg);
   transition-delay: 0.3s;
   height: 2px;
+  width: 2.5rem;
+}
+
+.menu #overlay-content {
+  display: none;
+  flex-direction: column;
+}
+.menu #overlay-content a {
+  padding: 1rem;
+  text-align: center;
 }
 
 .carousselIllustrations {
@@ -703,8 +714,35 @@ input:focus:invalid {
     stroke-dashoffset: 0;
   }
 }
-.linear-gradient {
+.projet {
   background: linear-gradient(white, #8EA3BF);
+}
+.projet .sous-titre {
+  font-size: 2rem;
+}
+.projet .slider-projets {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.projet .slider-projets .uk-overlay-default {
+  background: rgba(142, 163, 191, 0.7);
+}
+.projet .contour {
+  border: 3px solid white;
+  padding: 0.8rem;
+}
+.projet .titre-projet {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  transition: all 0.4s ease-in;
+}
+.projet .titre-projet h3 {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.projet .titre-projet p {
+  font-size: 1.3rem;
 }
 
 .footer {
