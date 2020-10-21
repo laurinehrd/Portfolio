@@ -1,3 +1,4 @@
+@import "../utils/variables";
 
 .header-bg{
   background-image: url('../images/vik-paysage-f.png');
@@ -49,4 +50,7 @@
   transform: translate(-50%, -50%);
   border-radius: 2px;
   color: white;
+  &:hover{
+    background-color: $primary!important;
+  }
 }

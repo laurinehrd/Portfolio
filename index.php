@@ -4,7 +4,15 @@
 
 
 <!-- <div class="header-bg uk-background-cover uk-light uk-flex" uk-parallax="bgy: -500"> -->
-<div class="header-bg uk-background-fixed uk-light uk-background-cover">
+<header class="header-bg uk-background-fixed uk-light uk-background-cover">
+
+  <div class="d-flex justify-content-end">
+    <div class="burger-menu burger-menu--closed">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
 
   <div class="banner">
     <div class="text-center">
@@ -68,10 +76,11 @@
 
   </div>
 
-</div>
+
+</header>
 
 
-<a href="#"><img class="logo" src="assets/images/logo-lh.png" alt="logo"></a>
+<a href="#"><img class="logo" id="logosvg" src="assets/images/logo-lh.png" alt="logo"></a>
 
 <!-- ***************************ABOUT ME**************************** -->
 

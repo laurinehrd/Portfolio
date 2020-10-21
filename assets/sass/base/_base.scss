@@ -18,9 +18,9 @@ h2 {
   padding-top: $paddingTop;
   margin-bottom: 4rem;
 }
-.logo{
+#logosvg{
   position: fixed;
-  top: 0;
+  top: -150px;
   z-index: 9999;
   width: 10rem;
 }

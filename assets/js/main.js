@@ -43,3 +43,21 @@ window.onload = function(){
     document.getElementById("typping-effect").style.display = "block";
   }, 5000);
 }
+
+// apparition du logo fixe
+window.onscroll = showLogo;
+function showLogo(){
+  var windowScroll = document.documentElement.scrollTop;
+  console.log(windowScroll);
+  if(windowScroll > 620){
+    document.getElementById('logosvg').style.top = "0";
+  }else{
+    document.getElementById('logosvg').style.top = "-150px";
+  }
+}
+
+// burger menu
+document.querySelector(".burger-menu").addEventListener("click", function(){
+  document.querySelector(".burger-menu").classList.toggle("burger-menu--opened");
+  document.querySelector(".burger-menu").classList.toggle("burger-menu--closed");
+});
