@@ -228,7 +228,6 @@ h2 {
 }
 
 .carousselIllustrations {
-  height: 70vh;
   padding-top: 2rem;
 }
 
@@ -716,16 +715,17 @@ input:focus:invalid {
 }
 .projet {
   background: linear-gradient(white, #8EA3BF);
+  padding-bottom: 5rem;
 }
-.projet .sous-titre {
-  font-size: 2rem;
-}
-.projet .slider-projets {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-.projet .slider-projets .uk-overlay-default {
+.projet .uk-overlay-default {
   background: rgba(142, 163, 191, 0.7);
+}
+.projet .uk-subnav a {
+  color: black;
+}
+.projet .uk-subnav-pill .uk-active a {
+  background-color: #8EA3BF;
+  color: white;
 }
 .projet .contour {
   border: 3px solid white;
@@ -739,10 +739,17 @@ input:focus:invalid {
 }
 .projet .titre-projet h3 {
   font-size: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.projet .titre-projet h3:hover {
+  color: #FFE6DE;
 }
 .projet .titre-projet p {
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+.projet .titre-projet img {
+  width: 10rem;
 }
 
 .footer {

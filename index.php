@@ -193,6 +193,221 @@
 
   <div class="container">
 
+
+    <div uk-filter="target: .js-filter">
+
+      <ul class="uk-subnav uk-subnav-pill">
+        <li class="uk-active" uk-filter-control><a href="#">Tous mes projets</a></li>
+        <li uk-filter-control="[data-name='develop']"><a href="#">Développement web</a></li>
+        <li uk-filter-control="[data-name='webdesign']"><a href="#">Webdesign</a></li>
+        <li uk-filter-control="[data-name='illustrations']"><a href="#">Illustrations</a></li>
+      </ul>
+
+      <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+        <li data-name="develop">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/projet1.png" alt="">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Titre</h3>
+                  <p class="">Contenu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="webdesign">
+          <a href="#">
+              <div class="uk-card">
+                <div class="uk-card-panel contour uk-transition-toggle">
+                  <img  src="assets/images/projet1.png" alt="">
+                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                    <h3 class="">Titre</h3>
+                    <p class="">Contenu</p>
+                  </div>
+                </div>
+              </div>
+            </a>        
+          </li>
+        <li data-name="develop">
+          <a href="#">
+              <div class="uk-card">
+                <div class="uk-card-panel contour uk-transition-toggle">
+                  <img  src="assets/images/projet1.png" alt="">
+                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                    <h3 class="">Titre</h3>
+                    <p class="">Contenu</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+        </li>
+        <li data-name="illustrations">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img src="assets/images/Vik-compressor.jpg" alt="illustration Vik" oncontextmenu="return false" onmousedown="return false">                
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Vik</h3>
+                  <p class="">Illustration d'un paysage en Norvège</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Preikestolen</h3>
+                  <p class="">Illustration du célèbre rocher de la chair, en Norvège</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img src="assets/images/Bryggen.jpg" alt="illustration Bryggen" oncontextmenu="return false" onmousedown="return false">                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Bryggen</h3>
+                  <p class="">Illustration en Norvège</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="webdesign">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/projet1.png" alt="">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Titre</h3>
+                  <p class="">Contenu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img src="assets/images/bryggen2.jpg" alt="illustration Bryggen minimaliste" oncontextmenu="return false" onmousedown="return false">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Bryggen</h3>
+                  <p class="">Illustration plus minimaliste d'une ville en Norvège</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="webdesign">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/projet1.png" alt="">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Titre</h3>
+                  <p class="">Contenu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="develop">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/projet1.png" alt="">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Titre</h3>
+                  <p class="">Contenu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="webdesign">
+          <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/projet1.png" alt="">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Titre</h3>
+                  <p class="">Contenu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+           <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img src="assets/images/Kakashi.jpg" alt="illustration Kakashi" oncontextmenu="return false" onmousedown="return false">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Kakashi</h3>
+                  <p class="">Personnage dans Naruto</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+           <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+              <img src="assets/images/Itachi.jpg" alt="illustration Itachi" oncontextmenu="return false" onmousedown="return false">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Itachi</h3>
+                  <p class="">Personnage dans Naruto</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li data-name="illustrations">
+           <a href="#">
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+              <img src="assets/images/Naruto.jpg" alt="illustration Naruto" oncontextmenu="return false" onmousedown="return false">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Naruto</h3>
+                  <p class="">Personnage principal</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="container">
+
     <div class="row">
       <div class="col-lg-6 text-center">
         <h2 class="sous-titre">À l'Access Code School</h2>
@@ -200,7 +415,7 @@
       <div class="col-lg-6 text-center pt-4">
         <p class="">Durant mes 6 mois de formation, j'ai travaillé sur différents projets qui m'ont permis d'accroitre mes compétences, en apprenant différents langages, aussi bien sur des projets individuels que des projets en groupe.</p>
       </div>
-    </div>
+    </div> 
 
 
     <div uk-slider="" class="slider-projets">
@@ -289,10 +504,10 @@
 
 
 
-  </div>
+  </div>-->
 
 
-  <div class="carousselIllustrations uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+  <!-- <div class="carousselIllustrations uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
         <li class="uk-transition-toggle" tabindex="0">
           <div class="uk-panel p-2">
@@ -339,7 +554,7 @@
     </ul>
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-  </div>
+  </div> -->
 
 </div>
 

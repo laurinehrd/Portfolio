@@ -1,34 +1,49 @@
 .projet{
   background: linear-gradient(white, $primary);
-  .sous-titre{
-    font-size: 2rem;
+  padding-bottom: 5rem;
+  // .sous-titre{
+  //   font-size: 2rem;
+  // }
+  .uk-overlay-default{
+    background: rgba(142,163,191,0.7);
   }
 
-  .slider-projets{
-    margin: {
-      top: 2rem;
-      bottom: 5rem;
+  .uk-subnav{
+    a{
+      color: black;
     }
-    .uk-overlay-default{
-      background: rgba(142,163,191,0.7);
-    }
-    
   }
+  .uk-subnav-pill{
+    .uk-active{
+      a{
+        background-color: $primary;
+        color: white;
+      }
+    }
+  }
+
   .contour{
     border: 3px solid white;
     padding: 0.8rem;
   }
   .titre-projet{
-    color: white;
+    color: white;    
     font-size: 2rem;
     text-align: center;
     transition: all .4s ease-in;
     h3{
       font-size: 2rem;
-      margin-top: 5rem;
+      margin-top: 2rem;
+      font-weight: bold;
+      &:hover{
+        color: #FFE6DE;
+      }
     }
     p{
-      font-size: 1.3rem;
+      font-size: 1rem;
+    }
+    img{
+      width: 10rem;
     }
   }
   
