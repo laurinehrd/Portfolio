@@ -199,6 +199,8 @@ h2 {
 }
 .burger-menu--opened {
   padding-top: 12px;
+  z-index: 9999;
+  position: fixed;
 }
 .burger-menu--opened .bar:nth-of-type(1) {
   transform: rotate(45deg);
@@ -221,10 +223,22 @@ h2 {
 .menu #overlay-content {
   display: none;
   flex-direction: column;
+  position: fixed;
+  width: 30%;
+  height: 100vh;
+  padding-top: 5rem;
+  background-color: rgba(250, 250, 250, 0.6);
 }
 .menu #overlay-content a {
-  padding: 1rem;
+  font-size: 1.8rem;
+  font-family: "Lato";
+  padding: 2rem;
   text-align: center;
+  color: black;
+}
+.menu #overlay-content a:hover {
+  background-color: #8EA3BF;
+  color: white;
 }
 
 .carousselIllustrations {
