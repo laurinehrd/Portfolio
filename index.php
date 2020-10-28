@@ -9,10 +9,10 @@
   <div class="menu d-flex justify-content-end">
 
     <div id="overlay-content">
-      <a href="#découvrir">Me découvrir</a>
-      <a href="#compétences">Mes compétences</a>
-      <a href="#projets">Mes projets</a>
-      <a href="#contact">Me contacter</a>
+      <a href="#découvrir" onclick=lien()>Me découvrir</a>
+      <a href="#compétences" onclick=lien()>Mes compétences</a>
+      <a href="#projets" onclick=lien()>Mes projets</a>
+      <a href="#contact" onclick=lien()>Me contacter</a>
     </div>
 
     <div class="burger-menu burger-menu--closed">

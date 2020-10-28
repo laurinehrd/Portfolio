@@ -67,8 +67,12 @@ burger.addEventListener("click", function(){
   }else{
     overlay.style.display = "none";
   }
-  
 });
+
+function lien(){
+  overlay.style.display = "none";
+  burger.classList.toggle("burger-menu--opened")
+}
 
 
 

@@ -1,9 +1,9 @@
 //BASE
 @import "./base/typo";
 @import "./base/base";
-@import "./base/header";
 
 //COMPOSANTS
+@import "./composants/header";
 @import "./composants/menu";
 @import "./composants/caroussel";
 @import "./composants/form";
@@ -11,9 +11,10 @@
 @import "./composants/competences";
 @import "./composants/svg";
 @import "./composants/realisations";
+@import "./composants/footer";
 
 //UTILS
 @import "./utils/variables";
 
 //PAGES
-@import "./pages/footer";
+
