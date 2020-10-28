@@ -5,7 +5,7 @@
   //   font-size: 2rem;
   // }
   .uk-overlay-default{
-    background: rgba(142,163,191,0.7);
+    background: rgba(black,0.6);
   }
 
   .uk-subnav{
@@ -32,6 +32,7 @@
     text-align: center;
     transition: all .4s ease-in;
     h3{
+      color: $primary;
       font-size: 2rem;
       margin-top: 2rem;
       font-weight: bold;

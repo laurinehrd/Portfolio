@@ -153,8 +153,18 @@
                 <img src="assets/images/icone-fleur.png" alt="icone fleur" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Front end</h3>
-              <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
-              <!-- <p>html, css, sass, bootstrap, wordpress</p> -->
+              <div class="globale globale1">
+                <div class="front front1">
+                  <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
+                </div>
+                <div class="back back1">
+                  <img src="assets/images/html.png" alt="icone html">
+                  <img src="assets/images/css.png" alt="icone css">
+                  <img src="assets/images/bootstrap.png" alt="icone bootstrap">
+                  <img src="assets/images/sass.png" alt="icone sass">
+                  <img src="assets/images/wordpress.png" alt="icone wordpress">
+                </div>
+              </div>
             </div>
         </div>
       </div>
@@ -163,8 +173,17 @@
           <img src="assets/images/icone-arbre.png" alt="icone arbre" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Back end</h3>
-              <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
-              <!-- <p>php, symfony, javascript, mysql, dbmaria</p> -->
+              <div class="globale globale2">
+                <div class="front front2">
+                  <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
+                </div>
+                <div class="back back2">
+                  <img src="assets/images/php.png" alt="icone php">
+                  <img src="assets/images/symfony.png" alt="icone symfony">
+                  <img src="assets/images/javascript.png" alt="icone javascript">
+                  <img src="assets/images/mariadb.png" alt="icone mariadb">
+                </div>
+              </div>
             </div>
         </div>
       </div>
@@ -173,8 +192,17 @@
           <img src="assets/images/icone-ampoule.png" alt="icone ampoule fleuris" oncontextmenu="return false" onmousedown="return false">
             <div class="">
               <h3>Design et créativité</h3>
-              <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
-              <!-- <p>Illustrator, Photoshop, Indesign, AdobeXd</p> -->
+              <div class="globale globale3">
+                <div class="front front3">
+                  <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
+                </div>
+                <div class="back back3">
+                  <img src="assets/images/illustrator.png" alt="icone illustrator">
+                  <img src="assets/images/photoshop.png" alt="icone photoshop">
+                  <img src="assets/images/indesign.png" alt="icone indesign">
+                  <img src="assets/images/xd.png" alt="icone adobe xd">
+                </div>
+              </div>
             </div>
         </div>
       </div>
