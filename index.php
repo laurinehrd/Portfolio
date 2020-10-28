@@ -154,10 +154,10 @@
             <div class="">
               <h3>Front end</h3>
               <div class="globale globale1">
-                <div class="front front1">
+                <div class="front front1 uk-animation-slide-right-small">
                   <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
                 </div>
-                <div class="back back1">
+                <div class="back back1 uk-animation-slide-left-small">
                   <img src="assets/images/html.png" alt="icone html">
                   <img src="assets/images/css.png" alt="icone css">
                   <img src="assets/images/bootstrap.png" alt="icone bootstrap">
@@ -174,13 +174,13 @@
             <div class="">
               <h3>Back end</h3>
               <div class="globale globale2">
-                <div class="front front2">
+                <div class="front front2 uk-animation-slide-bottom-small">
                   <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
                 </div>
-                <div class="back back2">
+                <div class="back back2 uk-animation-slide-top-small">
+                  <img src="assets/images/javascript.png" alt="icone javascript">
                   <img src="assets/images/php.png" alt="icone php">
                   <img src="assets/images/symfony.png" alt="icone symfony">
-                  <img src="assets/images/javascript.png" alt="icone javascript">
                   <img src="assets/images/mariadb.png" alt="icone mariadb">
                 </div>
               </div>
@@ -193,10 +193,10 @@
             <div class="">
               <h3>Design et créativité</h3>
               <div class="globale globale3">
-                <div class="front front3">
+                <div class="front front3 uk-animation-slide-left-small">
                   <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
                 </div>
-                <div class="back back3">
+                <div class="back back3 uk-animation-slide-right-small">
                   <img src="assets/images/illustrator.png" alt="icone illustrator">
                   <img src="assets/images/photoshop.png" alt="icone photoshop">
                   <img src="assets/images/indesign.png" alt="icone indesign">
