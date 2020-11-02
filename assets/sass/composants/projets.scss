@@ -47,5 +47,32 @@
       width: 10rem;
     }
   }
+
   
+  
+}
+// modal
+.modal-contenu{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  .consignes{
+    padding: 2rem;
+    margin-bottom: 5rem;
+  }
+  .realisations{
+    background-color: $primary;
+    padding: 2rem;
+  }
+}
+.modal-icones{
+  img{
+    width: 3rem;
+    margin: 1rem;
+  }
+}
+.btn-flappy{
+  a{
+    background-color: $primary;
+  }
 }

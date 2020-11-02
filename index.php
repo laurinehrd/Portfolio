@@ -233,23 +233,23 @@
 
       <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
         <li data-name="develop">
-          <a href="#">
+          <a href="#flappybird" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/projet1.png" alt="">
+                <img src="assets/images/flappy-bird.png" alt="image flappy bird">
                 <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Titre</h3>
-                  <p class="">Contenu</p>
+                  <h3 class="">Flappy Bird</h3>
+                  <p class="">Clone du jeu flappybird</p>
                 </div>
               </div>
             </div>
           </a>
         </li>
         <li data-name="webdesign">
-          <a href="tdou.php">
+          <a href="#refonte" uk-toggle>
               <div class="uk-card">
                 <div class="uk-card-panel contour uk-transition-toggle">
-                  <img  src="assets/images/pageaccueil-tdou.png" alt="image accueil tdou">
+                  <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
                   <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                     <h3 class="">Refonte d'un site web</h3>
                     <p class="">Création d'une maquette Photoshop</p>
@@ -418,171 +418,96 @@
 
   </div>
 
+  <!-- modal -->
 
+  <!-- refonte -->
+  <div id="refonte" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
 
+        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
 
+        <div class="pt-3">
+          <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
+        </div>
 
+        <div class="text-center">
+          <h2>Refonte d'un site web</h2>
+        </div>
 
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle justify-content-between" uk-grid>
+          <img  src="assets/images/refonte.png" alt="image accueil refonte site web">
+          <div class="modal-contenu">
+            <span class="consignes">
+              <h3>Consignes</h3>
+              <p>Elaborer une maquette Photoshop pour la refonte d'un site web. Le but était de le moderniser tout en respectant sa charte graphique et sa couleur dominante, le noir. <br>Le site en question est un site internet spécialisé dans la vente de plaques d'immatriculation.</p>
+            </span>
+            <span class="realisations">
+              <h3>Réalisations</h3>
+              <p>Travail en équipe avec : <br>
+              Célia Bellod, Sergio Ralandison et Jules Chabaud, camarades de l'Acces Code School.<br><br>
+              - Réalisation de la charte graphique<br>
+              - Elaboration de la maquette sur Photoshop, version desktop et mobile</p>
+            </span>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-  <!-- <div class="container">
-
-    <div class="row">
-      <div class="col-lg-6 text-center">
-        <h2 class="sous-titre">À l'Access Code School</h2>
-      </div>
-      <div class="col-lg-6 text-center pt-4">
-        <p class="">Durant mes 6 mois de formation, j'ai travaillé sur différents projets qui m'ont permis d'accroitre mes compétences, en apprenant différents langages, aussi bien sur des projets individuels que des projets en groupe.</p>
-      </div>
-    </div> 
-
-
-    <div uk-slider="" class="slider-projets">
-
-      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="1">
-
-        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
-          <li>
-            <a href="#">
-              <div class="uk-card">
-                <div class="uk-card-panel contour uk-transition-toggle">
-                  <img  src="assets/images/projet1.png" alt="">
-                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                    <h3 class="">Titre</h3>
-                    <p class="">Contenu</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </li>
-            <li>
-              <a href="#">
-                <div class="uk-card">
-                  <div class="uk-card-panel contour uk-transition-toggle">
-                    <img  src="assets/images/projet1.png" alt="">
-                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                      <h3 class="">Titre</h3>
-                      <p class="">Contenu</p>
-                  </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <div class="uk-card">
-                  <div class="uk-card-panel contour uk-transition-toggle">
-                    <img  src="assets/images/projet1.png" alt="">
-                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                      <h3 class="">Titre</h3>
-                      <p class="">Contenu</p>
-                  </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <div class="uk-card">
-                  <div class="uk-card-panel contour uk-transition-toggle">
-                    <img  src="assets/images/projet1.png" alt="">
-                    <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                      <h3 class="">Titre</h3>
-                      <p class="">Contenu</p>
-                  </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-
-        </ul>
-
-          <a class="uk-position-center-left uk-position-medium" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-position-center-right uk-position-medium" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-      </div>
+        <div class="text-center mt-5">
+          <h3>Technologies utilisés :</h3>
+          <div class="modal-icones">
+            <img src="assets/images/photoshop.png" alt="icone photoshop">
+            <img src="assets/images/trello.png" alt="icone trello">
+          </div>
+        </div>
 
     </div>
+  </div>
+  <!-- flappy bird -->
+  <div id="flappybird" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
 
+        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
 
+        <div class="text-center">
+          <img  src="assets/images/flappy-bird.png" alt="image flappy bird">
+        </div>
 
+        <div class="text-center">
+          <h2>Clone du jeu Flappy Bird</h2>
+        </div>
 
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle justify-content-between" uk-grid>
+          <img  src="assets/images/flappy-bird.png" alt="image flappy bird">
+          <div class="modal-contenu">
+            <span class="consignes">
+              <h3>Consignes</h3>
+              <p>Reproduire le fameux jeu Flappy bird.<br>Utilisation de Javascript, gérer les collisions, incrémenter le score.</p>
+            </span>
+            <span class="realisations">
+              <h3>Réalisations</h3>
+              <p>Travail en autonomie.<br><br>
+              - Suivi d'un tuto pour comprendre les étapes à réaliser<br>
+              - Choix des images<br>
+              - Recréation du jeu en version Harry Potter</p>
+            </span>
+          </div>
+        </div>
 
+        <div class="text-center mt-5">
+          <h3>Technologies utilisés :</h3>
+          <div class="modal-icones">
+            <img src="assets/images/javascript.png" alt="icone javascript">
+          </div>
+        </div>
 
+        <div class="text-center my-5 btn-flappy">
+          <p uk-margin>
+            <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/flappy-bird/" target="_blank">Voir</a>
+          </p>
+        </div>
 
-    <div class="row">
-      <div class="col-lg-6 text-center">
-        <h2  class="sous-titre" id="illustrations">Mes illustrations personnelles</h2>
-      </div>
-      <div class="col-lg-6 text-center pt-4">
-        <p class="">Je me suis formé en autodidacte sur la suite Adobe, et j'ai tout de suite adoré créer des visuels. J'ai repris mes photos de voyages que j'ai adapté en illustrations, et voilà le résultat !</p>
-      </div>
     </div>
-
-
-
-
-
-  </div>-->
-
-
-  <!-- <div class="carousselIllustrations uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-              <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">
-              <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Preikestolen</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Bryggen.jpg" alt="illustration Bryggen" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Bryggen</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Vik-compressor.jpg" alt="illustration Vik" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Vik</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/bryggen2.jpg" alt="illustration Bryggen minimaliste" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Bryggen</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Kakashi.jpg" alt="illustration Kakashi" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Kakashi</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Itachi.jpg" alt="illustration Itachi" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Itachi</h3></div>
-          </div>
-        </li>
-        <li class="uk-transition-toggle" tabindex="0">
-          <div class="uk-panel p-2">
-            <img class="uk-transition-scale-up uk-transition-opaque" src="assets/images/Naruto.jpg" alt="illustration Naruto" oncontextmenu="return false" onmousedown="return false">
-            <div class="uk-position-center"><h3 class="uk-transition-slide-bottom-small">Naruto</h3></div>
-          </div>
-        </li>
-    </ul>
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-  </div> -->
+  </div>
+  <!-- fin modal -->
 
 </div>
 

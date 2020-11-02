@@ -214,7 +214,7 @@ h2 {
   margin: -3px;
 }
 .burger-menu--opened .bar:nth-of-type(3) {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(1px, -1px);
   transition-delay: 0.3s;
   height: 2px;
   width: 2.5rem;
@@ -788,6 +788,29 @@ input:focus:invalid {
 }
 .projet .titre-projet img {
   width: 10rem;
+}
+
+.modal-contenu {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.modal-contenu .consignes {
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+.modal-contenu .realisations {
+  background-color: #8EA3BF;
+  padding: 2rem;
+}
+
+.modal-icones img {
+  width: 3rem;
+  margin: 1rem;
+}
+
+.btn-flappy a {
+  background-color: #8EA3BF;
 }
 
 .footer {
