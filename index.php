@@ -247,32 +247,32 @@
         </li>
         <li data-name="webdesign">
           <a href="#refonte" uk-toggle>
-              <div class="uk-card">
-                <div class="uk-card-panel contour uk-transition-toggle">
-                  <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
-                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                    <h3 class="">Refonte d'un site web</h3>
-                    <p class="">Création d'une maquette Photoshop</p>
-                  </div>
+            <div class="uk-card">
+              <div class="uk-card-panel contour uk-transition-toggle">
+                <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                  <h3 class="">Refonte d'un site web</h3>
+                  <p class="">Création d'une maquette Photoshop</p>
                 </div>
               </div>
-            </a>        
-          </li>
+            </div>
+          </a>        
+        </li>
         <li data-name="develop">
-          <a href="#">
+          <a href="#themewp" uk-toggle>
               <div class="uk-card">
                 <div class="uk-card-panel contour uk-transition-toggle">
-                  <img  src="assets/images/projet1.png" alt="">
+                  <img  src="assets/images/themewp.png" alt="image du theme wp">
                   <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                    <h3 class="">Titre</h3>
-                    <p class="">Contenu</p>
+                    <h3 class="">WordPress</h3>
+                    <p class="">Création d'un thème WordPress</p>
                   </div>
                 </div>
               </div>
             </a>
         </li>
         <li data-name="illustrations">
-          <a href="#">
+          <a href="#" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
                 <img src="assets/images/Vik-compressor.jpg" alt="illustration Vik" oncontextmenu="return false" onmousedown="return false">                
@@ -285,10 +285,11 @@
           </a>
         </li>
         <li data-name="illustrations">
-          <a href="#">
+          <a href="#" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                <img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">                
+                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                   <h3 class="">Preikestolen</h3>
                   <p class="">Illustration du célèbre rocher de la chair, en Norvège</p>
                 </div>
@@ -297,7 +298,7 @@
           </a>
         </li>
         <li data-name="illustrations">
-          <a href="#">
+          <a href="#" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
                 <img src="assets/images/Bryggen.jpg" alt="illustration Bryggen" oncontextmenu="return false" onmousedown="return false">                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
@@ -308,14 +309,14 @@
             </div>
           </a>
         </li>
-        <li data-name="webdesign">
-          <a href="#">
+        <li data-name="webdesign" data-name="develop">
+          <a href="#wpinegalite" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/projet1.png" alt="">
+                <img  src="assets/images/wpinegalite.png" alt="bannière les écarts de rémunération">
                 <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Titre</h3>
-                  <p class="">Contenu</p>
+                  <h3 class="">Les écarts de rémunération</h3>
+                  <p class="">Outils de communication</p>
                 </div>
               </div>
             </div>
@@ -335,10 +336,10 @@
           </a>
         </li>
         <li data-name="webdesign">
-          <a href="#">
+          <a href="#" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/projet1.png" alt="">
+                <img  src="" alt="">
                 <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                   <h3 class="">Titre</h3>
                   <p class="">Contenu</p>
@@ -348,23 +349,23 @@
           </a>
         </li>
         <li data-name="develop">
-          <a href="#">
+          <a href="#filesexplorer" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/projet1.png" alt="">
+                <img  src="" alt="">
                 <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Titre</h3>
-                  <p class="">Contenu</p>
+                  <h3 class="">Explorateur de fichiers</h3>
+                  <p class="">PHP</p>
                 </div>
               </div>
             </div>
           </a>
         </li>
         <li data-name="webdesign">
-          <a href="#">
+          <a href="#" uk-toggle>
             <div class="uk-card">
               <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/projet1.png" alt="">
+                <img  src="" alt="">
                 <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                   <h3 class="">Titre</h3>
                   <p class="">Contenu</p>
@@ -444,7 +445,7 @@
             <span class="realisations">
               <h3>Réalisations</h3>
               <p>Travail en équipe avec : <br>
-              Célia Bellod, Sergio Ralandison et Jules Chabaud, camarades de l'Acces Code School.<br><br>
+              Célia Bellod, Sergio Ralandison et Jules Chabaud, camarades de l'Access Code School.<br><br>
               - Réalisation de la charte graphique<br>
               - Elaboration de la maquette sur Photoshop, version desktop et mobile</p>
             </span>
@@ -480,13 +481,14 @@
           <div class="modal-contenu">
             <span class="consignes">
               <h3>Consignes</h3>
-              <p>Reproduire le fameux jeu Flappy bird.<br>Utilisation de Javascript, gérer les collisions, incrémenter le score.</p>
+              <p>Création d'un mini jeu Flappy bird.<br>Utilisation de Javascript. <br>Gestion de la gravité, des collisions, du mouvement du personnage au clavier, et affichage du score.</p>
             </span>
             <span class="realisations">
               <h3>Réalisations</h3>
               <p>Travail en autonomie.<br><br>
               - Suivi d'un tuto pour comprendre les étapes à réaliser<br>
               - Choix des images<br>
+              - Ajout de son au différentes actions (score incrémenté, bruit d'ailes du personnage, game over)<br>
               - Recréation du jeu en version Harry Potter</p>
             </span>
           </div>
@@ -499,7 +501,7 @@
           </div>
         </div>
 
-        <div class="text-center my-5 btn-flappy">
+        <div class="text-center my-5 btn-modal">
           <p uk-margin>
             <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/flappy-bird/" target="_blank">Voir</a>
           </p>
@@ -507,6 +509,164 @@
 
     </div>
   </div>
+  <!-- thème wp -->
+  <div id="themewp" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
+
+        <div class="text-center">
+          <img  src="assets/images/themewp.png" alt="image theme wordpress">
+        </div>
+
+        <div class="text-center">
+          <h2>Création d'un thème WordPress</h2>
+        </div>
+
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle justify-content-between" uk-grid>
+          <img  src="assets/images/home.php.png" alt="image home wordpress">
+          <div class="modal-contenu">
+            <span class="consignes">
+              <h3>Consignes</h3>
+              <p>Créer un thème WordPress en réalisant sa maquette, puis en l'intégrant avec WordPress.<br>Utilisation des fonctions PHP de WordPress, rendre le contenu dynamique et personnalisable.<br>
+              Créer une page d'accueil, une page pour lister les articles, une page pour afficher le contenu d'un article, et une page 404.</p>
+            </span>
+            <span class="realisations">
+              <h3>Réalisations</h3>
+              <p>Travail en autonomie.<br><br>
+              - Création d'une maquette sur Adobe XD<br>
+              - Choix des couleurs, typographies, et images<br>
+              - Intégration de la maquette sur WordPress en créant un thème unique<br>
+              - Création de Customs post-types</p>
+            </span>
+            <img src="assets/images/404.php.png" alt="image page erreur">
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <h3>Technologies utilisés :</h3>
+          <div class="modal-icones">
+            <img src="assets/images/bootstrap.png" alt="icone Bootstrap">
+            <img src="assets/images/wordpress.png" alt="icone WordPress">
+            <img src="assets/images/php.png" alt="icone php">
+            <img src="assets/images/xd.png" alt="icone adode XD">
+          </div>
+        </div>
+
+        <div class="text-center my-5 btn-modal">
+          <p uk-margin>
+            <a class="uk-button uk-button-primary uk-button-large" href="#" target="_blank">Voir</a>
+          </p>
+        </div>
+
+    </div>
+  </div>
+  <!-- wp ecarts remuneration -->
+  <div id="wpinegalite" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
+
+        <div class="text-center">
+          <img  src="assets/images/wpinegalite.png" alt="image theme wordpress">
+        </div>
+
+        <div class="text-center">
+          <h2>Les écarts de rémunération</h2>
+        </div>
+
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle justify-content-between" uk-grid>
+          <img  src="assets/images/bigbanner.png" alt="image banière les écarts de rémunération">
+          <div class="modal-contenu">
+            <span class="consignes">
+              <h3>Consignes</h3>
+              <p>Développer un outil de communication pour sensibiliser sur l'importance de l'égalité professionnelle femmes / hommes, sur le thème des écarts de rémunération.</p>
+            </span>
+            <span class="realisations">
+              <h3>Réalisations</h3>
+              <p>Travail en équipe avec :<br>
+              Julie Boulenger et Mathieu Radjouki, camarades de l'Access Code School.<br><br>
+              - Création d'une maquette sur Adobe XD<br>
+              - Réalisation de la planche des tendances<br>
+              - Création d'illustrations, visuels et animations<br>
+              - Intégration sur WordPress avec contenu personnalisable<br>
+              - Création de Customs post-types</p>
+            </span>
+            <img src="" alt="">
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <h3>Technologies utilisés :</h3>
+          <div class="modal-icones">
+            <img src="assets/images/bootstrap.png" alt="icone Bootstrap">
+            <img src="assets/images/wordpress.png" alt="icone WordPress">
+            <img src="assets/images/php.png" alt="icone php">
+            <img src="assets/images/xd.png" alt="icone adode XD">
+            <img src="assets/images/illustrator.png" alt="icone illustrator">
+          </div>
+        </div>
+
+        <div class="text-center my-5 btn-modal">
+          <p uk-margin>
+            <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/les-ecarts-de-remuneration/" target="_blank">Voir</a>
+          </p>
+        </div>
+
+    </div>
+  </div>
+  <!-- files explorer -->
+  <div id="filesexplorer" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
+
+        <div class="text-center">
+          <img  src="assets/images/.png" alt="image explorateur de fichiers">
+        </div>
+
+        <div class="text-center">
+          <h2>Explorateur de fichiers</h2>
+        </div>
+
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle justify-content-between" uk-grid>
+          <img  src="assets/images/.png" alt="">
+          <div class="modal-contenu">
+            <span class="consignes">
+              <h3>Consignes</h3>
+              <p>Créer un explorateur de fichiers en utilisant PHP pour les fonctionnalités, et styliser l'ensemble.</p>
+            </span>
+            <span class="realisations">
+              <h3>Réalisations</h3>
+              <p>Travail en équipe avec :<br>
+              Julie Boulenger, camarade de l'Access Code School.<br><br>
+              - Création d'une maquette sur Adobe XD<br>
+              - Détermination du style graphique : couleurs, images, icones, boutons<br>
+              - Développement de fonctions PHP : affichage et navigation des dossiers, actions ouvrir, renommer, copier, coller des fichiers, afficher ou masquer les fichiers cachés, téléchargement de fichiers<br>
+              </p>
+            </span>
+            <img src="" alt="">
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <h3>Technologies utilisés :</h3>
+          <div class="modal-icones">
+            <img src="assets/images/php.png" alt="icone php">
+            <img src="assets/images/javascript.png" alt="icone jevascript">
+            <img src="assets/images/xd.png" alt="icone adode XD">
+          </div>
+        </div>
+
+        <div class="text-center my-5 btn-modal">
+          <p uk-margin>
+            <a class="uk-button uk-button-primary uk-button-large" href="#" target="_blank">Voir</a>
+          </p>
+        </div>
+
+    </div>
+  </div>
+
   <!-- fin modal -->
 
 </div>
