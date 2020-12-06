@@ -12,7 +12,7 @@
 
 
     <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" /> -->
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Laurine Herard | Portfolio</title>

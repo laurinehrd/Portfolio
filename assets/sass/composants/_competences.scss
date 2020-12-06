@@ -1,9 +1,11 @@
 .competences{
+  // height: 100vh;
   background-color: $primary;
   padding: {
     top: 2rem;
     bottom: 2rem;
   }
+
   .globale{
     .back{
       display: none;
@@ -23,7 +25,4 @@
 .card-position{
   display: flex;
   justify-content: center;
-}
-.card-position:hover{
-
 }

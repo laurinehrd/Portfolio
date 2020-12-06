@@ -1,0 +1,41 @@
+@import "../utils/variables";
+
+.presentation-container {
+    height: 100vh;
+    background-color: $primary;
+
+    .section-title {
+        position: relative;
+        top: 55px;
+        left: calc(3vw + 40px);
+        text-align: center;
+        width: 80px;
+
+        .elements {
+            p {
+                color: white;
+                font-size: 2rem;
+            }
+            .border-line {
+                // border-bottom: 2px solid white;
+                // width: 200px;
+                height: calc(100vh - 520px);
+                width: 2px;
+                background-color: white;
+                transform-origin: bottom left;
+                margin: 0 auto;
+            }
+            h2 {
+                transform-origin: 50% 50%;
+                transform: rotate(-180deg);
+                margin: 30px auto 0 auto;
+                writing-mode: tb-rl;
+                color: white;
+                text-transform: uppercase;
+                font-size: 1.3rem;
+                letter-spacing: 5px;
+            }
+        }
+        
+    }
+}

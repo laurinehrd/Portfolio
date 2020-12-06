@@ -1,4 +1,5 @@
-<div class="footer header-bg uk-background-fixed uk-background-cover">
+<div class="footer">
+<!-- <div class="footer header-bg uk-background-fixed uk-background-cover"> -->
     <!-- LOGO en bg pour uk-bg-fixed-->
     <p>Tous droits réservés - 2020 | <a href="#">Mentions légales</a> | Illustrations par Laurine Herard</p>
 </div>
@@ -9,8 +10,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
 <!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script> -->
 
 <script type="text/javascript" src="assets/js/main.js"></script>
 

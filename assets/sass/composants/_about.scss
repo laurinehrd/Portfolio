@@ -1,13 +1,14 @@
 .about-me{
+  background-color: white;
   position: relative;
+  // height: 100vh;
   h3{
     text-align: center;
   }
+  .uk-card-default{
+  }
   .uk-slideshow-items{
     min-height: 440.438px!important;
-  }
-  .flecheIcon{
-    color: $primary!important;
   }
   .icon-fleche{
     padding-bottom: 3rem;

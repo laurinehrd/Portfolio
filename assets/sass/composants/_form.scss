@@ -1,12 +1,14 @@
 .formulaire{
+  // height: 100vh;
+  background-color: $primary;
   position: relative;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 form {
   width: 90%;
   padding: 1em;
-  border: 1px solid $primary;
+  border: 2px solid white;
   img{
     width: 2rem;
     margin: {
