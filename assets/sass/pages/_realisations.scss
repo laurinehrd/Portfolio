@@ -1,0 +1,21 @@
+@import "../utils/variables";
+
+.realisation-container {
+    background-color: $primary;
+    position: relative;
+
+    .main-section {
+
+        .summary-section {
+
+            .elements {
+                .border-line {
+                    height: calc(100vh - 460px);
+                }
+            }
+        }
+
+    }
+
+
+}

@@ -2,7 +2,8 @@
 <?php session_destroy(); ?>
 
 
-<div class="presentation-container">
+<!-- PRESENTATION -->
+<div class="section-container presentation-container" id="presentation">
 
   <!-- MENU -->
   <div class="menu d-flex justify-content-end">
@@ -69,95 +70,306 @@
     </svg>
   </div> -->
 
+  <div class="main-section">
 
-  <div class="section-title">
-    <div class="elements">
-      <p>01</p>
-      <div class="border-line"></div>
-      <!-- <hr> -->
-      <h2>Présentation</h2>
+    <div class="summary-section">
+      <div class="elements">
+        <p>01</p>
+        <div class="border-line"></div>
+        <h2>Présentation</h2>
+      </div>
     </div>
+
+
+    <div class="content-section">
+
+      <div class="sub-title">
+        <p>
+          Hey ! <br>
+          Je suis Laurine, <br>
+          Développeuse web et webdesigner  
+        </p>
+      </div>
+      <div class="sub-content">
+        <p>
+          J'ai 23 ans et je suis dijonnaise. Après avoir travaillé dans la vente, j'ai rejoins l'univers du développement web en suivant une formation à l'Access Code School. Je me suis découvert un attrait pour la création graphique : j'aime créer des illustrations, définir une identité visuelle, et développer ma créativité pour rendre les choses belles. Avec une envie d'apprendre de nouvelles choses, j'aime développer des sites internet et apprendre de nouveaux langages web.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="sub-illustration">
+      <img src="assets/images/photo-illustration.png" alt="illustration" oncontextmenu="return false" onmousedown="return false">
+    </div>
+
+
   </div>
 
+  <div class="arrow-presentation">
+    <a href="#competences">
+      <img src="assets/images/arrow.png" alt="">
+    </a>
+  </div>
 
 
 </div>
 
 
+<!-- COMPETENCES -->
+<div class="section-container competences-container" id="competences">
+
+  <div class="main-section">
 
 
+    <div class="summary-section">
+      <div class="elements">
+        <p>02</p>
+        <div class="border-line"></div>
+        <h2>Compétences</h2>
+      </div>
+    </div>
 
+    <div class="content-section">
 
-
-<!--****************************** COMPETENCES ***********************-->
-<div class="competences">
-<h2 class="" id="compétences">Mes compétences</h2>
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card-competences p-3 bg-transparent text-center">
+      <div class="sub-title">
+        <p>
+            J'ai développé mes compétences lors de mon parcours en autodidacte et grâce à ma formation
+        </p>
+      </div>
+      <div class="sub-content">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card-competences p-3 bg-transparent text-center">
                 <img src="assets/images/icone-fleur.png" alt="icone fleur" oncontextmenu="return false" onmousedown="return false">
-            <div class="">
-              <h3>Front end</h3>
-              <div class="globale globale1">
-                <div class="front front1 uk-animation-slide-right-small">
-                  <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
+                <div class="">
+                  <h3>Front end</h3>
+                  <div class="globale globale1">
+                    <div class="front front1">
+                      <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
+                    </div>
+                    <div class="back back1">
+                      <img src="assets/images/html.png" alt="icone html">
+                      <img src="assets/images/css.png" alt="icone css">
+                      <img src="assets/images/bootstrap.png" alt="icone bootstrap">
+                      <img src="assets/images/sass.png" alt="icone sass">
+                      <img src="assets/images/wordpress.png" alt="icone wordpress">
+                    </div>
+                  </div>
                 </div>
-                <div class="back back1 uk-animation-slide-left-small">
-                  <img src="assets/images/html.png" alt="icone html">
-                  <img src="assets/images/css.png" alt="icone css">
-                  <img src="assets/images/bootstrap.png" alt="icone bootstrap">
-                  <img src="assets/images/sass.png" alt="icone sass">
-                  <img src="assets/images/wordpress.png" alt="icone wordpress">
-                </div>
-              </div>
             </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-competences p-3 bg-transparent text-center">
+              <img src="assets/images/icone-arbre.png" alt="icone arbre" oncontextmenu="return false" onmousedown="return false">
+                <div class="">
+                  <h3>Back end</h3>
+                  <div class="globale globale2">
+                    <div class="front front2">
+                      <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
+                    </div>
+                    <div class="back back2">
+                      <img src="assets/images/javascript.png" alt="icone javascript">
+                      <img src="assets/images/php.png" alt="icone php">
+                      <img src="assets/images/symfony.png" alt="icone symfony">
+                      <img src="assets/images/mariadb.png" alt="icone mariadb">
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-competences p-3 bg-transparent text-center">
+              <img src="assets/images/icone-ampoule.png" alt="icone ampoule fleuris" oncontextmenu="return false" onmousedown="return false">
+                <div class="">
+                  <h3>Design et créativité</h3>
+                  <div class="globale globale3">
+                    <div class="front front3">
+                      <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
+                    </div>
+                    <div class="back back3">
+                      <img src="assets/images/illustrator.png" alt="icone illustrator">
+                      <img src="assets/images/photoshop.png" alt="icone photoshop">
+                      <img src="assets/images/indesign.png" alt="icone indesign">
+                      <img src="assets/images/xd.png" alt="icone adobe xd">
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="card-competences p-3 bg-transparent text-center">
-          <img src="assets/images/icone-arbre.png" alt="icone arbre" oncontextmenu="return false" onmousedown="return false">
-            <div class="">
-              <h3>Back end</h3>
-              <div class="globale globale2">
-                <div class="front front2 uk-animation-slide-bottom-small">
-                  <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
-                </div>
-                <div class="back back2 uk-animation-slide-top-small">
-                  <img src="assets/images/javascript.png" alt="icone javascript">
-                  <img src="assets/images/php.png" alt="icone php">
-                  <img src="assets/images/symfony.png" alt="icone symfony">
-                  <img src="assets/images/mariadb.png" alt="icone mariadb">
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card-competences p-3 bg-transparent text-center">
-          <img src="assets/images/icone-ampoule.png" alt="icone ampoule fleuris" oncontextmenu="return false" onmousedown="return false">
-            <div class="">
-              <h3>Design et créativité</h3>
-              <div class="globale globale3">
-                <div class="front front3 uk-animation-slide-left-small">
-                  <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
-                </div>
-                <div class="back back3 uk-animation-slide-right-small">
-                  <img src="assets/images/illustrator.png" alt="icone illustrator">
-                  <img src="assets/images/photoshop.png" alt="icone photoshop">
-                  <img src="assets/images/indesign.png" alt="icone indesign">
-                  <img src="assets/images/xd.png" alt="icone adobe xd">
-                </div>
-              </div>
-            </div>
-        </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="arrow-center">
+    <a href="#realisations">
+      <img src="assets/images/arrow.png" alt="">
+    </a>
+  </div>
+
+
+</div>
+
+<!-- REALISATIONS -->
+<div class="section-container realisation-container" id="realisations">
+
+  <div class="main-section">
+
+    <div class="summary-section">
+      <div class="elements">
+        <p>03</p>
+        <div class="border-line"></div>
+        <h2>Réalisations</h2>
       </div>
     </div>
 
+
+    <div class="content-section">
+
+      <div class="sub-title">
+        <p>
+          Mes réalisations 
+        </p>
+      </div>
+      <div class="sub-content">
+        <p>
+          
+        </p>
+      </div>
+
+    </div>
+
+
   </div>
+
+  <div class="arrow-center">
+    <a href="#contact">
+      <img src="assets/images/arrow.png" alt="">
+    </a>
+  </div>
+
+
 </div>
+
+
+<!-- CONTACT -->
+<div class="section-container contact-container" id="contact">
+
+  <div class="main-section">
+
+    <div class="summary-section">
+      <div class="elements">
+        <p>04</p>
+        <div class="border-line"></div>
+        <h2>Contact</h2>
+      </div>
+    </div>
+
+
+    <div class="content-section">
+
+      <div class="sub-title">
+        <p>
+          Contacte moi 
+        </p>
+      </div>
+      <div class="sub-content">
+
+        <div class="formulaire">
+
+          <?php if(isset($_SESSION['errors'])){
+          ?>
+            <div class="alert alert-danger">
+              <?= implode('<br>', $_SESSION['errors']);
+              var_dump($_SESSION['errors']);
+
+              ?>
+            </div>
+          <?php
+          }
+
+          if(isset($_SESSION['success'])){
+
+          ?>
+
+            <div class="alert alert-success">
+              <p>Email bien envoyé !</p>
+            </div>
+          <?php
+            }
+          ?>
+
+          <form action="contact.php" method="post">
+
+            <div class="form-row d-flex">
+              <div class="form-group col-md-6 pr-3">
+                <input class="form-control input-form" placeholder="Prénom *" type="text" name="user_firstname" id="firstname" value="" required pattern="^[A-Za-zÀ-ÿ '-]+$" max-maxlength="20">
+              </div>
+              <div class="form-group col-md-6 pl-3">
+                  <input class="form-control input-form" placeholder="Nom *" type="text" name="user_name" id="name" value="" required pattern="^[A-Za-z '-]+$" max-maxlength="20">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input class="form-control input-form" placeholder="Adresse mail *" type="text" name="user_email" id="email" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$">
+            </div>
+
+            <div class="form-group">
+              <input class="form-control input-form" placeholder="Objet" type="text" name="user_object" id="object" value="" required>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control input-form" placeholder="Message *" name="user_message" rows="4" cols="80" required pattern="^[A-Za-z '-]+$" min-minlength="2"></textarea>
+            </div>
+
+            <div>
+              <button class="bouton-submit btn btn-primary" type="submit" name="button">Envoyer</button>
+            </div>
+
+          </form>
+
+
+          <div class="uk-divider-vertical"></div>
+
+              
+
+
+        </div>
+
+      </div>
+
+      <div class="info-media text-center">
+        <div class="informations">
+          <span class="pr-4"><img class="icon-location" src="assets/images/placeholder_1.png"  onmouseover="this.src='assets/images/placeholder_2.png'" onmouseout="this.src='assets/images/placeholder_1.png'" alt="icon location" uk-tooltip="title: Ma ville natale;">
+          <p>Dijon</p></span>
+          <span class="pl-4"><img class="icon-phone" src="assets/images/smartphone.png"  onmouseover="this.src='assets/images/smartphone_2.png'" onmouseout="this.src='assets/images/smartphone.png'" alt="icon phone" uk-tooltip="title: Pour les projets,<br> ou boire un thé; pos: right"><p><a href="tel=0651804225">06 51 80 42 25</a></p></span>
+        </div>
+        <div class="item-media">
+          <a class="lien" href="https://www.linkedin.com/in/laurine-herard/" target="_blank" uk-tooltip="title: Rejoins-moi !; pos: left"><img class="icon-linkedin" src="assets/images/linkedin_2.png"  onmouseover="this.src='assets/images/linkedin_1.png'" onmouseout="this.src='assets/images/linkedin_2.png'" alt="icon linkedin"></a>
+          <a class="lien" href="https://github.com/laurinehrd" target="_blank" uk-tooltip="title: Clique pour voir tous mes projets codés !; pos: bottom"><img class="icon-github" src="assets/images/github_1.png" onmouseover="this.src='assets/images/github_2.png'" onmouseout="this.src='assets/images/github_1.png'" alt="icon github"></a>
+          <a class="lien" href="https://www.pinterest.fr/laurineherarddw/" target="_blank" uk-tooltip="title: Mon réseau pour mes inspirations<br>Abonnes-toi !; pos: right"><img class="icon-pinterest" src="assets/images/pinterest.png" onmouseover="this.src='assets/images/pinterest_2.png'" onmouseout="this.src='assets/images/pinterest.png'" alt="icon pinterest"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="arrow-to-top">
+    <a href="#presentation">
+      <img src="assets/images/arrow.png" alt="">
+    </a>
+  </div>
+
+  
+
+
+</div>
+
+
+
 
 
 
@@ -607,90 +819,6 @@
 
 </div>-->
 
-
-<!-- ********************FORMULAIRE************************** -->
-<div class="formulaire">
-<h2 class="" id="contact">Me contacter</h2>
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-6">
-
-
-
-    <?php if(isset($_SESSION['errors'])){
-    ?>
-      <div class="alert alert-danger">
-        <?= implode('<br>', $_SESSION['errors']);
-        var_dump($_SESSION['errors']);
-
-
-        ?>
-      </div>
-    <?php
-      }
-
-     if(isset($_SESSION['success'])){
-
-    ?>
-
-      <div class="alert alert-success">
-        <p>Email bien envoyé !</p>
-      </div>
-    <?php
-      }
-  ?>
-
-
-      <form action="contact.php" method="post">
-
-        <div class="form-row d-flex">
-          <div class="form-group col-md-6 pr-3">
-            <input class="form-control input-form" placeholder="Prénom *" type="text" name="user_firstname" id="firstname" value="" required pattern="^[A-Za-zÀ-ÿ '-]+$" max-maxlength="20">
-          </div>
-          <div class="form-group col-md-6 pl-3">
-              <input class="form-control input-form" placeholder="Nom *" type="text" name="user_name" id="name" value="" required pattern="^[A-Za-z '-]+$" max-maxlength="20">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <input class="form-control input-form" placeholder="Adresse mail *" type="text" name="user_email" id="email" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$">
-        </div>
-
-        <div class="form-group">
-          <input class="form-control input-form" placeholder="Objet" type="text" name="user_object" id="object" value="" required>
-        </div>
-
-        <div class="form-group">
-          <textarea class="form-control input-form" placeholder="Message *" name="user_message" rows="4" cols="80" required pattern="^[A-Za-z '-]+$" min-minlength="2"></textarea>
-        </div>
-
-        <div>
-
-          <button class="bouton-submit btn btn-primary" type="submit" name="button">Envoyer<img src="assets/images/paper-plane.png" alt=""></button>
-        </div>
-
-      </form>
-      </div>
-      <div class="uk-divider-vertical"></div>
-
-      <!-- <div class="col-lg-6 info-media text-center">
-        <div class="informations">
-          <span class="pr-4"><img class="icon-location" src="assets/images/placeholder_1.png"  onmouseover="this.src='assets/images/placeholder_2.png'" onmouseout="this.src='assets/images/placeholder_1.png'" alt="icon location" uk-tooltip="title: Ma ville natale;">
-          <p>Dijon</p></span>
-          <span class="pl-4"><img class="icon-phone" src="assets/images/smartphone.png"  onmouseover="this.src='assets/images/smartphone_2.png'" onmouseout="this.src='assets/images/smartphone.png'" alt="icon phone" uk-tooltip="title: Pour les projets,<br> ou boire un thé; pos: right"><p><a href="tel=0651804225">06 51 80 42 25</a></p></span>
-        </div>
-        <div class="item-media">
-          <a class="lien" href="https://www.linkedin.com/in/laurine-herard/" target="_blank" uk-tooltip="title: Rejoins-moi !; pos: left"><img class="icon-linkedin" src="assets/images/linkedin_2.png"  onmouseover="this.src='assets/images/linkedin_1.png'" onmouseout="this.src='assets/images/linkedin_2.png'" alt="icon linkedin"></a>
-          <a class="lien" href="https://github.com/laurinehrd" target="_blank" uk-tooltip="title: Clique pour voir tous mes projets codés !; pos: bottom"><img class="icon-github" src="assets/images/github_1.png" onmouseover="this.src='assets/images/github_2.png'" onmouseout="this.src='assets/images/github_1.png'" alt="icon github"></a>
-          <a class="lien" href="https://www.pinterest.fr/laurineherarddw/" target="_blank" uk-tooltip="title: Mon réseau pour mes inspirations<br>Abonnes-toi !; pos: right"><img class="icon-pinterest" src="assets/images/pinterest.png" onmouseover="this.src='assets/images/pinterest_2.png'" onmouseout="this.src='assets/images/pinterest.png'" alt="icon pinterest"></a>
-        </div>
-      </div> -->
-
-
-  </div>
-</div>
 
 
 </div>

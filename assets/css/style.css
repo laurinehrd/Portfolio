@@ -1,7 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway";
 }
 
 .burger-menu {
@@ -114,65 +120,6 @@ html {
   padding: 4.8rem;
 }
 
-.formulaire {
-  background-color: #68688e;
-  position: relative;
-  padding-bottom: 4rem;
-}
-
-form {
-  width: 90%;
-  padding: 1em;
-  border: 2px solid white;
-}
-form img {
-  width: 2rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.input-form {
-  border: none;
-  border-bottom: 2px solid black;
-  border-radius: 0;
-  background-color: transparent;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-family: "Montserrat";
-}
-
-.form-control:focus {
-  background-color: transparent;
-  border-color: white;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-.error {
-  width: 100%;
-  padding: 0;
-  color: white;
-  background-color: #FDD;
-  border-radius: 0 0 5px 5px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-
-.bouton-submit {
-  color: white;
-  border-color: #68688e;
-  background-color: #68688e;
-}
-.bouton-submit:hover {
-  background-color: #0d6efd;
-}
-
 .about-me {
   background-color: white;
   position: relative;
@@ -197,30 +144,6 @@ input:focus:invalid {
 }
 .about-me a:hover {
   color: blue;
-}
-
-.competences {
-  background-color: #68688e;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.competences .globale .back {
-  display: none;
-}
-.competences .globale .back img {
-  width: 2.5rem;
-  margin: 0.5rem;
-}
-.competences h3 {
-  padding-top: 1rem;
-}
-.competences .card-competences {
-  margin: 1rem;
-}
-
-.card-position {
-  display: flex;
-  justify-content: center;
 }
 
 #Calque_1 {
@@ -686,47 +609,256 @@ input:focus:invalid {
 }
 
 .footer {
+  background-color: #2b2b47;
   width: 100%;
-  color: black;
+  color: white;
   height: 10vh;
   padding: 1.9rem;
   text-align: center;
 }
 .footer a {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
-.presentation-container {
+.section-container {
   height: 100vh;
-  background-color: #68688e;
 }
-.presentation-container .section-title {
+.section-container .main-section {
+  display: flex;
+}
+.section-container .main-section .summary-section {
   position: relative;
   top: 55px;
   left: calc(3vw + 40px);
   text-align: center;
   width: 80px;
 }
-.presentation-container .section-title .elements p {
+.section-container .main-section .summary-section .elements p {
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  opacity: 0.7;
+  letter-spacing: 5px;
 }
-.presentation-container .section-title .elements .border-line {
+.section-container .main-section .summary-section .elements .border-line {
   height: calc(100vh - 520px);
   width: 2px;
   background-color: white;
   transform-origin: bottom left;
   margin: 0 auto;
 }
-.presentation-container .section-title .elements h2 {
+.section-container .main-section .summary-section .elements h2 {
   transform-origin: 50% 50%;
   transform: rotate(-180deg);
   margin: 30px auto 0 auto;
   writing-mode: tb-rl;
   color: white;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 5px;
+}
+.section-container .main-section .content-section {
+  position: relative;
+  top: 130px;
+  left: calc(3vw + 160px);
+  width: 33%;
+  z-index: 1;
+}
+.section-container .main-section .content-section .sub-title {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+}
+.section-container .main-section .content-section .sub-title:after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid black;
+  width: 50px;
+  bottom: -20px;
+}
+.section-container .main-section .content-section .sub-content {
+  margin-top: 4rem;
+  text-align: justify;
+}
+.section-container .main-section .content-section .sub-content p {
+  color: #1e1e1e;
+}
+
+.arrow-to-top {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+
+.presentation-container {
+  background-color: #68688e;
+}
+.presentation-container .main-section .summary-section .elements .border-line {
+  height: calc(100vh - 540px);
+}
+.presentation-container .main-section .sub-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-presentation {
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  z-index: 2;
+}
+
+.competences-container {
+  background-color: #3b3b59;
+  position: relative;
+}
+.competences-container .main-section .summary-section .elements .border-line {
+  height: calc(100vh - 460px);
+}
+.competences-container .main-section .content-section {
+  width: 70%;
+}
+.competences-container .main-section .content-section .sub-title {
+  width: 45%;
+  color: white;
+  font-size: 1.3rem;
+}
+.competences-container .main-section .content-section .sub-title:after {
+  content: "";
+  border-bottom: 3px solid white;
+}
+.competences-container .main-section .content-section .sub-content h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1em;
+}
+.competences-container .main-section .content-section .sub-content p {
+  color: #a5a5a5;
+}
+.competences-container .main-section .content-section .sub-content .globale .back {
+  display: none;
+}
+.competences-container .main-section .content-section .sub-content .globale .back img {
+  width: 2.5rem;
+  margin: 0.5rem;
+}
+
+.arrow-center {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  z-index: 2;
+}
+
+.realisation-container {
+  background-color: #68688e;
+  position: relative;
+}
+.realisation-container .main-section .summary-section .elements .border-line {
+  height: calc(100vh - 460px);
+}
+
+.contact-container {
+  background-color: #3b3b59;
+  position: relative;
+}
+.contact-container .main-section .summary-section .elements .border-line {
+  height: calc(100vh - 390px);
+}
+.contact-container .main-section .content-section {
+  width: 70%;
+}
+.contact-container .main-section .content-section .sub-title {
+  color: white;
+}
+.contact-container .main-section .content-section .sub-title:after {
+  content: "";
+  border-bottom: 3px solid white;
+}
+.contact-container .main-section .content-section .sub-content .formulaire {
+  position: relative;
+  width: 50%;
+}
+.contact-container .main-section .content-section .sub-content form {
+  width: 90%;
+  padding: 1em;
+}
+.contact-container .main-section .content-section .sub-content form img {
+  width: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.contact-container .main-section .content-section .sub-content .input-form {
+  border: none;
+  border-bottom: 2px solid #68688e;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-container .main-section .content-section .sub-content .form-control:focus {
+  background-color: transparent;
+  border-color: white;
+}
+.contact-container .main-section .content-section .sub-content input:focus:invalid {
+  outline: none;
+}
+.contact-container .main-section .content-section .sub-content .error {
+  width: 100%;
+  padding: 0;
+  color: white;
+  background-color: #FDD;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.contact-container .main-section .content-section .sub-content .error.active {
+  padding: 0.3em;
+}
+.contact-container .main-section .content-section .sub-content .bouton-submit {
+  margin-top: 1rem;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+}
+.contact-container .main-section .content-section .sub-content .bouton-submit:hover {
+  background-color: #68688e;
+}
+.contact-container .main-section .content-section .informations {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.contact-container .main-section .content-section .item-media {
+  display: flex;
+  justify-content: center;
+}
+.contact-container .main-section .content-section .item-media a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.contact-container .main-section .content-section .info-media {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+.contact-container .main-section .content-section .info-media img {
+  width: 3rem;
+}
+.contact-container .main-section .content-section .lien {
+  text-decoration: none;
+}
+.contact-container .main-section .content-section .lien:hover {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

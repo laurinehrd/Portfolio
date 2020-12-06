@@ -6,9 +6,7 @@
 @import "./composants/header";
 @import "./composants/menu";
 @import "./composants/caroussel";
-@import "./composants/form";
 @import "./composants/about";
-@import "./composants/competences";
 @import "./composants/svg";
 @import "./composants/projets";
 @import "./composants/footer";
@@ -17,7 +15,11 @@
 @import "./utils/variables";
 
 //PAGES
+@import "./pages/structure";
 @import "./pages/presentation";
+@import "./pages/competences";
+@import "./pages/realisations";
+@import "./pages/contact";
 
 
 //LAYOUT
