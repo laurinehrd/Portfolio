@@ -76,15 +76,17 @@ body {
   display: none;
   flex-direction: column;
   position: fixed;
-  width: 30%;
+  width: 100%;
   height: 100vh;
   z-index: 3;
-  padding-top: 5rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .menu #overlay-content a {
-  font-size: 1.8rem;
-  font-family: "Lato";
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
   margin: 2rem;
   text-align: center;
   color: white;
@@ -94,56 +96,12 @@ body {
 }
 .menu #overlay-content a .items-a:hover::after {
   content: "";
-  z-index: -1;
   position: absolute;
   background-color: #68688e;
-  border-radius: 2px;
-  width: 110%;
-  height: 0.7rem;
-  bottom: 0px;
+  width: 50px;
+  height: 3px;
+  bottom: -10px;
   left: 0;
-  margin-left: -0.5rem;
-  text-align: center;
-}
-
-.carousselIllustrations {
-  padding-top: 2rem;
-}
-
-.uk-panel {
-  border: 3px solid white;
-}
-
-.hover {
-  height: 395px;
-  margin-bottom: 0;
-  padding: 4.8rem;
-}
-
-.about-me {
-  background-color: white;
-  position: relative;
-}
-.about-me h3 {
-  text-align: center;
-}
-.about-me .uk-slideshow-items {
-  min-height: 440.438px !important;
-}
-.about-me .icon-fleche {
-  padding-bottom: 3rem;
-}
-.about-me img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.about-me a {
-  color: black;
-  font-style: italic;
-}
-.about-me a:hover {
-  color: blue;
 }
 
 #Calque_1 {
@@ -518,96 +476,6 @@ body {
     stroke-dashoffset: 0;
   }
 }
-.projet {
-  background-color: white;
-  padding-bottom: 5rem;
-}
-.projet .content-project {
-  display: flex;
-}
-.projet .uk-subnav {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  margin-right: 2rem;
-  border-left: 2px solid #68688e;
-  height: fit-content;
-}
-.projet .uk-subnav li {
-  margin-bottom: 1rem;
-}
-.projet .uk-subnav a {
-  color: black;
-}
-.projet .uk-subnav-pill .uk-active a {
-  background-color: #68688e;
-  color: white;
-}
-.projet .card-project {
-  width: 80%;
-}
-.projet .card-project img {
-  max-height: 135px;
-  min-height: 135px;
-}
-.projet .contour {
-  border: 2px solid white;
-  padding: 0.5rem;
-}
-.projet .uk-overlay {
-  padding: 0;
-}
-.projet .titre-projet {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  transition: all 0.4s ease-in;
-}
-.projet .titre-projet h3 {
-  color: #68688e;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1rem;
-}
-.projet .titre-projet h3:hover {
-  color: #FFE6DE;
-}
-
-.modal-contenu {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-.modal-contenu .consignes {
-  padding: 2rem;
-  margin-bottom: 5rem;
-}
-.modal-contenu .realisations {
-  background-color: #68688e;
-  padding: 2rem;
-}
-
-.modal-icones img {
-  width: 3rem;
-  margin: 1rem;
-}
-
-.btn-modal a {
-  background-color: #68688e;
-}
-
-#exemple .row img {
-  height: 80vh;
-}
-#exemple .row .div1 {
-  text-align: center;
-  width: 33%;
-}
-#exemple .row .div2 {
-  width: 33%;
-  text-align: center;
-}
-
 .footer {
   background-color: #2b2b47;
   width: 100%;
@@ -836,6 +704,14 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
+  color: white;
+}
+.contact-container .main-section .content-section .informations a {
+  color: white;
+  text-decoration: none;
+}
+.contact-container .main-section .content-section .informations p {
+  padding-top: 1rem;
 }
 .contact-container .main-section .content-section .item-media {
   display: flex;

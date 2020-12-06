@@ -8,10 +8,10 @@
   <!-- MENU -->
   <div class="menu d-flex justify-content-end">
     <div id="overlay-content">
-      <a href="#découvrir" onclick=lien()><span class="items-a">Me découvrir</span></a>
-      <a href="#compétences" onclick=lien()><span class="items-a">Mes compétences</span></a>
-      <a href="#projets" onclick=lien()><span class="items-a">Mes projets</span></a>
-      <a href="#contact" onclick=lien()><span class="items-a">Me contacter</span></a>
+      <a href="#presentation" onclick=lien()><span class="items-a">Présentation</span></a>
+      <a href="#compétences" onclick=lien()><span class="items-a">Compétences</span></a>
+      <a href="#realisations" onclick=lien()><span class="items-a">Réalisations</span></a>
+      <a href="#contact" onclick=lien()><span class="items-a">Contact</span></a>
     </div>
 
     <div class="burger-menu burger-menu--closed">
@@ -343,14 +343,14 @@
 
       <div class="info-media text-center">
         <div class="informations">
-          <span class="pr-4"><img class="icon-location" src="assets/images/placeholder_1.png"  onmouseover="this.src='assets/images/placeholder_2.png'" onmouseout="this.src='assets/images/placeholder_1.png'" alt="icon location" uk-tooltip="title: Ma ville natale;">
+          <span class="pr-4"><img class="icon-location" src="assets/images/placeholder_1.png"  onmouseover="this.src='assets/images/placeholder_2.png'" onmouseout="this.src='assets/images/placeholder_1.png'" alt="icon location">
           <p>Dijon</p></span>
-          <span class="pl-4"><img class="icon-phone" src="assets/images/smartphone.png"  onmouseover="this.src='assets/images/smartphone_2.png'" onmouseout="this.src='assets/images/smartphone.png'" alt="icon phone" uk-tooltip="title: Pour les projets,<br> ou boire un thé; pos: right"><p><a href="tel=0651804225">06 51 80 42 25</a></p></span>
+          <span class="pl-4"><img class="icon-phone" src="assets/images/smartphone.png"  onmouseover="this.src='assets/images/smartphone_2.png'" onmouseout="this.src='assets/images/smartphone.png'" alt="icon phone"><p><a href="tel=0651804225">06 51 80 42 25</a></p></span>
         </div>
         <div class="item-media">
-          <a class="lien" href="https://www.linkedin.com/in/laurine-herard/" target="_blank" uk-tooltip="title: Rejoins-moi !; pos: left"><img class="icon-linkedin" src="assets/images/linkedin_2.png"  onmouseover="this.src='assets/images/linkedin_1.png'" onmouseout="this.src='assets/images/linkedin_2.png'" alt="icon linkedin"></a>
-          <a class="lien" href="https://github.com/laurinehrd" target="_blank" uk-tooltip="title: Clique pour voir tous mes projets codés !; pos: bottom"><img class="icon-github" src="assets/images/github_1.png" onmouseover="this.src='assets/images/github_2.png'" onmouseout="this.src='assets/images/github_1.png'" alt="icon github"></a>
-          <a class="lien" href="https://www.pinterest.fr/laurineherarddw/" target="_blank" uk-tooltip="title: Mon réseau pour mes inspirations<br>Abonnes-toi !; pos: right"><img class="icon-pinterest" src="assets/images/pinterest.png" onmouseover="this.src='assets/images/pinterest_2.png'" onmouseout="this.src='assets/images/pinterest.png'" alt="icon pinterest"></a>
+          <a class="lien" href="https://www.linkedin.com/in/laurine-herard/" target="_blank"><img class="icon-linkedin" src="assets/images/linkedin_2.png"  onmouseover="this.src='assets/images/linkedin_1.png'" onmouseout="this.src='assets/images/linkedin_2.png'" alt="icon linkedin"></a>
+          <a class="lien" href="https://github.com/laurinehrd" target="_blank"><img class="icon-github" src="assets/images/github_1.png" onmouseover="this.src='assets/images/github_2.png'" onmouseout="this.src='assets/images/github_1.png'" alt="icon github"></a>
+          <a class="lien" href="https://www.pinterest.fr/laurineherarddw/" target="_blank"><img class="icon-pinterest" src="assets/images/pinterest.png" onmouseover="this.src='assets/images/pinterest_2.png'" onmouseout="this.src='assets/images/pinterest.png'" alt="icon pinterest"></a>
         </div>
       </div>
 

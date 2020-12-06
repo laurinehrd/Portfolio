@@ -75,7 +75,7 @@
                     padding: 0.3em;
                   }
                   .bouton-submit{
-                      margin-top: 1rem;
+                    margin-top: 1rem;
                     color: white;
                     text-transform: uppercase;
                     border: none;
@@ -92,6 +92,14 @@
                 display: flex;
                 justify-content: center;
                 margin-bottom: 4rem;
+                color: white;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+                p {
+                    padding-top: 1rem;
+                }
             }
             .item-media{
                 display: flex;
@@ -113,7 +121,6 @@
             }
             .lien{
             text-decoration: none;
-            // color: white;
                 &:hover{
                     text-decoration: none;
                     color: black;
