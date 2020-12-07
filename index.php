@@ -9,7 +9,7 @@
   <div class="menu d-flex justify-content-end">
     <div id="overlay-content">
       <a href="#presentation" onclick=lien()><span class="items-a">Présentation</span></a>
-      <a href="#compétences" onclick=lien()><span class="items-a">Compétences</span></a>
+      <a href="#competences" onclick=lien()><span class="items-a">Compétences</span></a>
       <a href="#realisations" onclick=lien()><span class="items-a">Réalisations</span></a>
       <a href="#contact" onclick=lien()><span class="items-a">Contact</span></a>
     </div>
@@ -148,11 +148,11 @@
                       <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
                     </div>
                     <div class="back back1">
-                      <img src="assets/images/html.png" alt="icone html">
-                      <img src="assets/images/css.png" alt="icone css">
-                      <img src="assets/images/bootstrap.png" alt="icone bootstrap">
-                      <img src="assets/images/sass.png" alt="icone sass">
-                      <img src="assets/images/wordpress.png" alt="icone wordpress">
+                      <img src="assets/images/htmlwhite.png" alt="icone html">
+                      <img src="assets/images/csswhite.png" alt="icone css">
+                      <img src="assets/images/bootstrapwhite.png" alt="icone bootstrap">
+                      <img src="assets/images/sasswhite.png" alt="icone sass">
+                      <img src="assets/images/wordpresswhite.png" alt="icone wordpress">
                     </div>
                   </div>
                 </div>
@@ -168,10 +168,10 @@
                       <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
                     </div>
                     <div class="back back2">
-                      <img src="assets/images/javascript.png" alt="icone javascript">
-                      <img src="assets/images/php.png" alt="icone php">
-                      <img src="assets/images/symfony.png" alt="icone symfony">
-                      <img src="assets/images/mariadb.png" alt="icone mariadb">
+                      <img src="assets/images/javascriptwhite.png" alt="icone javascript">
+                      <img src="assets/images/phpwhite.png" alt="icone php">
+                      <img src="assets/images/symfonywhite.png" alt="icone symfony">
+                      <img src="assets/images/mariadbwhite.png" alt="icone mariadb">
                     </div>
                   </div>
                 </div>
@@ -187,10 +187,10 @@
                       <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
                     </div>
                     <div class="back back3">
-                      <img src="assets/images/illustrator.png" alt="icone illustrator">
-                      <img src="assets/images/photoshop.png" alt="icone photoshop">
-                      <img src="assets/images/indesign.png" alt="icone indesign">
-                      <img src="assets/images/xd.png" alt="icone adobe xd">
+                      <img src="assets/images/illustratorwhite.png" alt="icone illustrator">
+                      <img src="assets/images/photoshopwhite.png" alt="icone photoshop">
+                      <img src="assets/images/indesignwhite.png" alt="icone indesign">
+                      <img src="assets/images/xdwhite.png" alt="icone adobe xd">
                     </div>
                   </div>
                 </div>

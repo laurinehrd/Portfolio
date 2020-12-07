@@ -55,6 +55,10 @@
                     margin: {
                       bottom: 1rem;
                     }
+                    color: white;
+                    &::placeholder {
+                        color: #a5a5a5;
+                    }
                 }
                 .form-control:focus{
                     background-color: transparent;
@@ -115,6 +119,8 @@
                 position: absolute;
                 right: 0;
                 bottom: 50%;
+                border-left: 1px solid #a5a5a5;
+                padding-left: 8%;
                 img{
                     width: 3rem;
                 }

@@ -671,6 +671,10 @@ body {
   background-color: transparent;
   padding: 1rem;
   margin-bottom: 1rem;
+  color: white;
+}
+.contact-container .main-section .content-section .sub-content .input-form::placeholder {
+  color: #a5a5a5;
 }
 .contact-container .main-section .content-section .sub-content .form-control:focus {
   background-color: transparent;
@@ -725,6 +729,8 @@ body {
   position: absolute;
   right: 0;
   bottom: 50%;
+  border-left: 1px solid #a5a5a5;
+  padding-left: 8%;
 }
 .contact-container .main-section .content-section .info-media img {
   width: 3rem;
