@@ -46,16 +46,16 @@ window.onload = function(){
 
 
 // apparition du logo fixe
-window.onscroll = showLogo;
-function showLogo(){
-  var windowScroll = document.documentElement.scrollTop;
-  console.log(windowScroll);
-  if(windowScroll > 620){
-    document.getElementById('logosvg').style.top = "0";
-  }else{
-    document.getElementById('logosvg').style.top = "-150px";
-  }
-}
+// window.onscroll = showLogo;
+// function showLogo(){
+//   var windowScroll = document.documentElement.scrollTop;
+//   console.log(windowScroll);
+//   if(windowScroll > 620){
+//     document.getElementById('logosvg').style.top = "0";
+//   }else{
+//     document.getElementById('logosvg').style.top = "-150px";
+//   }
+// }
 
 
 // burger menu
@@ -123,6 +123,9 @@ globale3.addEventListener("mouseout", function(){
   back3.style.display = "none";
   front3.style.display = "block";
 })
+
+
+
 
 
 

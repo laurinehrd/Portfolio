@@ -12,7 +12,7 @@
       <a href="#competences" onclick=lien()><span class="items-a">Compétences</span></a>
       <a href="#realisations" onclick=lien()><span class="items-a">Réalisations</span></a>
       <a href="#contact" onclick=lien()><span class="items-a">Contact</span></a>
-      <a href="#cv" onclick=lien()><span class="items-a items-cv">Télécharger mon CV</span></a>
+      <a href="assets/images/CV-laurine-herard.pdf" download onclick=lien()><span class="items-a items-cv">Télécharger mon CV</span></a>
     </div>
 
     <div class="burger-menu burger-menu--closed">
@@ -207,7 +207,7 @@
 
   <div class="arrow-center">
     <a href="#realisations">
-      <img src="assets/images/arrow.png" alt="">
+      <img src="assets/images/arrow.png" alt="arrow">
     </a>
   </div>
 
@@ -233,19 +233,51 @@
       <div class="sub-title">
         <p>
           Mes projets <br>
-          réalisés durant ma formation
+          et illustrations
         </p>
       </div>
 
+      <div class="sub-content">
+        
+        <div class="projets">
+          <p>
+            <span><a href="#"><img src="assets/images/mockup-flappy-bird.png" alt=""></a></span>
+            Flappybird
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/mockup-files-explorer.png" alt=""></a></span>
+            Explorateur
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/mockup-refonte-site.png" alt=""></a></span>
+            Maquette
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/mockups-wp-egalite.png" alt=""></a></span>
+            égalité
+          </p>
+        </div>
 
-      <!-- <div class="sub-content">
-        <img src="assets/images/mockup-files-explorer.png" alt="">
+        <div class="illustrations">
+          <p>
+            <span><a href="#"><img src="assets/images/Preikestolen-compressor.jpg" alt=""></a></span>
+            Preikestolen
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/Bryggen.jpg" alt=""></a></span>
+            Bryggen
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/Vik-compressor.jpg" alt=""></a></span>
+            Vik
+          </p>
+          <p>
+            <span><a href="#"><img src="assets/images/Kakashi2.jpg" alt=""></a></span>
+            Personnages
+          </p>
+        </div>
+        
       </div>
-      <div class="sub-content-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eaque a mollitia consectetur explicabo natus, alias facilis consequatur odio accusamus quam beatae, aliquam ut minima odit reprehenderit quod laboriosam?
-        </p>
-      </div> -->
 
     </div>
 
@@ -254,7 +286,7 @@
 
   <div class="arrow-center">
     <a href="#contact">
-      <img src="assets/images/arrow.png" alt="">
+      <img src="assets/images/arrow.png" alt="arrow">
     </a>
   </div>
 

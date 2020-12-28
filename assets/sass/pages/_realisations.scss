@@ -20,13 +20,33 @@
             width: 70%;
 
             .sub-content {
-                img {
-
+                margin-top: 6rem;
+                font-size: 2rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                .projets, .illustrations {
+                    display: flex;
+                    justify-content: space-around;
+                    p {
+                        padding: 1rem;
+                        color: $primaryLight;
+                        span {
+                            display: none;
+                        }
+                        &:hover {
+                            color: white;
+                            span {
+                                img { 
+                                    width: 6em;
+                                }
+                                display: block;
+                            }
+                        }
+                    }
                 }
+                
             }
-            .sub-content-text {
 
-            }
         }
 
     }
