@@ -1,7 +1,7 @@
 @import "../utils/variables";
 
 .realisation-container {
-    background-color: $primary;
+    background: $gradientPrimary;
     position: relative;
 
     .main-section {
@@ -12,6 +12,20 @@
                 .border-line {
                     height: calc(100vh - 460px);
                 }
+            }
+        }
+
+        .content-section {
+            top: 150px;
+            width: 70%;
+
+            .sub-content {
+                img {
+
+                }
+            }
+            .sub-content-text {
+
             }
         }
 
