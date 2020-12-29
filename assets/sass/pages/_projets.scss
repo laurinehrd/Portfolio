@@ -1,0 +1,56 @@
+@import "../utils/variables";
+
+.projets-container {
+    background: $gradientPrimary;
+    position: relative;
+
+    .main-section {
+
+        .summary-section {
+
+            .elements {
+                .border-line {
+                    height: calc(100vh - 485px);
+                }
+            }
+        }
+
+        .content-section {
+            top: 150px;
+            width: 70%;
+
+            .sub-content {
+                margin-top: 4rem;
+                width: 50%;
+                img {
+                    width: 2rem;
+                    margin-right: 1rem;
+                }
+            }
+            .sub-content-illustration {
+                margin-top: 1.8rem;
+                display: flex;
+                
+                .illustration {
+                    width: 20em;
+                }
+            }
+
+        }
+
+        .sub-illustration {
+            position: absolute;
+            right: 0;
+            top: 10vh;
+            .large-img {
+                width: 40em;
+            }
+            img {
+                width: 50em;
+            }
+        }
+
+    }
+
+
+}

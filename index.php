@@ -146,7 +146,10 @@
                   <h3>Front end</h3>
                   <div class="globale globale1">
                     <div class="front front1">
-                      <p>J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !</p>
+                      <p>
+                        J'aime rendre les choses belles, utiles, et agréables à regarder. Il est donc nécessaire d'avoir une belle interface !
+                        <br><span class="hover-me">Survole-moi</span>
+                      </p>
                     </div>
                     <div class="back back1">
                       <img src="assets/images/html.png" alt="icone html">
@@ -166,7 +169,10 @@
                   <h3>Back end</h3>
                   <div class="globale globale2">
                     <div class="front front2">
-                      <p>Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !</p>
+                      <p>
+                        Du beau c'est bien, mais j'apprécie aussi savoir ce qui se passe derrière, et rendre les choses dynamiques !
+                        <br><span class="hover-me">Survole-moi</span>
+                      </p>
                     </div>
                     <div class="back back2">
                       <img src="assets/images/javascript.png" alt="icone javascript">
@@ -185,7 +191,11 @@
                   <h3>Design et créativité</h3>
                   <div class="globale globale3">
                     <div class="front front3">
-                      <p>Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !</p>
+                      <p>
+                        Je prends plaisir à créer des illustrations, des logos, des maquettes d'interface, et bien d'autres visuels !
+                        <br><span class="hover-me">Survole-moi</span>
+                      </p>
+                      
                     </div>
                     <div class="back back3">
                       <img src="assets/images/illustrator.png" alt="icone illustrator">
@@ -241,38 +251,38 @@
         
         <div class="projets">
           <p>
-            <span><a href="#"><img src="assets/images/mockup-flappy-bird.png" alt=""></a></span>
+            <span><a href="flappybird.php"><img src="assets/images/mockup-flappybird.png" alt="mockup flappybird"></a></span>
             Flappybird
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/mockup-files-explorer.png" alt=""></a></span>
+            <span><a href="explorer.php"><img src="assets/images/mockup-files-explorer.png" alt="mockup files explorer"></a></span>
             Explorateur
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/mockup-refonte-site.png" alt=""></a></span>
+            <span><a href="maquette.php"><img src="assets/images/mockup-maquette.png" alt="mockup maquette"></a></span>
             Maquette
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/mockups-wp-egalite.png" alt=""></a></span>
+            <span><a href="egalite.php"><img src="assets/images/mockup-egalite.png" alt="mockup egalité"></a></span>
             égalité
           </p>
         </div>
 
         <div class="illustrations">
           <p>
-            <span><a href="#"><img src="assets/images/Preikestolen-compressor.jpg" alt=""></a></span>
+            <span><a href="illustrations.php"><img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen"></a></span>
             Preikestolen
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/Bryggen.jpg" alt=""></a></span>
+            <span><a href="illustrations.php"><img src="assets/images/Bryggen.jpg" alt="illustration Bryggen"></a></span>
             Bryggen
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/Vik-compressor.jpg" alt=""></a></span>
+            <span><a href="illustrations.php"><img src="assets/images/Vik-compressor.jpg" alt="illustration Vik"></a></span>
             Vik
           </p>
           <p>
-            <span><a href="#"><img src="assets/images/Kakashi2.jpg" alt=""></a></span>
+            <span><a href="illustrations.php"><img src="assets/images/Kakashi2.jpg" alt="illustration personnage"></a></span>
             Personnages
           </p>
         </div>
