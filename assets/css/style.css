@@ -109,6 +109,12 @@ body {
   left: 0;
 }
 
+.logo-svg {
+  position: absolute;
+  top: -50px;
+  left: 45%;
+}
+
 #Calque_1 {
   stroke-dashoffset: 130.5001525879px;
   stroke-dasharray: 130.5001525879px;
@@ -506,6 +512,7 @@ body {
   left: calc(3vw + 40px);
   text-align: center;
   width: 80px;
+  z-index: 1;
 }
 .section-container .main-section .summary-section .elements p {
   color: white;
@@ -603,6 +610,9 @@ body {
 .presentation-container .main-section .summary-section .elements .border-line {
   height: calc(100vh - 500px);
 }
+.presentation-container .main-section .content-section {
+  top: 220px;
+}
 .presentation-container .main-section .sub-illustration {
   position: absolute;
   bottom: 0;
@@ -628,7 +638,7 @@ body {
   top: 150px;
 }
 .competences-container .main-section .content-section .sub-title {
-  width: 45%;
+  width: 50%;
   font-size: 1.3rem;
 }
 .competences-container .main-section .content-section .sub-content h3 {
@@ -809,6 +819,9 @@ body {
   width: 2rem;
   margin-right: 1rem;
 }
+.projets-container .main-section .content-section .sub-content i {
+  color: #bb98b2;
+}
 .projets-container .main-section .content-section .sub-content-illustration {
   margin-top: 1.8rem;
   display: flex;
@@ -826,6 +839,126 @@ body {
 }
 .projets-container .main-section .sub-illustration img {
   width: 50em;
+}
+
+@media screen and (min-width: 1700px) {
+  .presentation-container .main-section .content-section {
+    top: 300px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-container .main-section .content-section {
+    top: 170px;
+    left: calc(3vw + 100px);
+    width: 55%;
+  }
+
+  .presentation-container .main-section .sub-illustration {
+    opacity: 0.7;
+  }
+
+  .competences-container .main-section .content-section {
+    width: 70%;
+  }
+  .competences-container .main-section .content-section .sub-title {
+    width: 85%;
+  }
+  .competences-container .main-section .sub-illustration {
+    opacity: 0.7;
+  }
+
+  .realisation-container .main-section .content-section {
+    width: 50%;
+  }
+  .realisation-container .main-section .content-section .sub-content {
+    margin-top: 2rem;
+  }
+  .realisation-container .main-section .content-section .sub-content .projets, .realisation-container .main-section .content-section .sub-content .illustrations {
+    justify-content: initial;
+    flex-wrap: wrap;
+  }
+  .realisation-container .main-section .content-section .sub-content .projets p, .realisation-container .main-section .content-section .sub-content .illustrations p {
+    padding: 0.4rem;
+  }
+
+  .contact-container .main-section .content-section {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 996px) {
+  .logo-svg {
+    left: 40%;
+  }
+
+  .competences-container {
+    height: auto;
+  }
+  .competences-container .main-section .content-section {
+    margin-bottom: 221px;
+  }
+
+  .contact-container {
+    height: 115vh;
+  }
+  .contact-container .main-section .content-section {
+    width: 70%;
+  }
+  .contact-container .main-section .content-section .sub-content .formulaire {
+    width: 100%;
+  }
+  .contact-container .main-section .content-section .info-media {
+    position: relative;
+    bottom: 0;
+    padding-left: 0;
+    margin-top: 2rem;
+    border-left: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact-container .main-section .content-section .info-media a {
+    text-align: center;
+    padding-left: 0;
+  }
+  .contact-container .main-section .content-section .informations {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo-svg {
+    left: 30%;
+  }
+
+  .section-container .main-section .summary-section {
+    left: calc(3vw + 0px);
+    width: 50px;
+  }
+  .section-container .main-section .content-section {
+    left: calc(3vw + 40px);
+    width: 75%;
+  }
+
+  .competences-container .main-section .summary-section .elements .border-line {
+    height: calc(100vh - 100px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo-svg {
+    left: 20%;
+  }
+
+  .section-container .main-section .summary-section {
+    width: 40px;
+  }
+  .section-container .main-section .content-section {
+    left: calc(3vw + 10px);
+  }
+
+  .presentation-container .main-section {
+    margin-top: 4rem;
+  }
+  .presentation-container .main-section .sub-illustration {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

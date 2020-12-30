@@ -27,9 +27,9 @@
           <strong>Réalisations : </strong>
         </p>
         <p>
-          - élaboration la charte graphique <br>
-          - maquettage des pages du site sur Photoshop <br>
-          - création de la maquette en responsive (version mobile) <br>
+          <i class="fas fa-angle-right"></i> élaboration la charte graphique <br>
+          <i class="fas fa-angle-right"></i> maquettage des pages du site sur Photoshop <br>
+          <i class="fas fa-angle-right"></i> création de la maquette en responsive (version mobile) <br>
         </p>
         <p>
             <em>Travail en groupe avec des camarades de la formation.</em>

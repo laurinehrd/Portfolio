@@ -28,11 +28,11 @@
           <strong>Réalisations : </strong>
         </p>
         <p>
-          - création d'une maquette sur Adobe XD <br>
-          - réalisation d'une planche des tendances <br>
-          - création d'illustrations, visuels et animations <br>
-          - intégration sur WordPress avec contenu personnalisable <br>
-          - création de Customs post-types <br>
+          <i class="fas fa-angle-right"></i> création d'une maquette sur Adobe XD <br>
+          <i class="fas fa-angle-right"></i> réalisation d'une planche des tendances <br>
+          <i class="fas fa-angle-right"></i> création d'illustrations, visuels et animations <br>
+          <i class="fas fa-angle-right"></i> intégration sur WordPress avec contenu personnalisable <br>
+          <i class="fas fa-angle-right"></i> création de Customs post-types <br>
         </p>
         <p>
             <em>Travail en groupe avec deux camarades de la formation.</em>

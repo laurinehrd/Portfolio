@@ -1,0 +1,201 @@
+// PRESENTATION 
+@media screen and (min-width: 1700px){
+
+    .presentation-container {
+        .main-section {
+            .content-section {
+                top: 300px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    // STRUCTURE
+    .section-container {
+        .main-section {
+            .content-section {
+                top: 170px;
+                left: calc(3vw + 100px);
+                width: 55%;
+            }
+        }
+    }
+
+    // PRESENTATION 
+    .presentation-container {
+        .main-section {
+            .content-section {
+                // width: 55%;
+            }
+            .sub-illustration {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    // COMPETENCES 
+    .competences-container {
+        .main-section {
+            .content-section {
+                width: 70%;
+                .sub-title {
+                    width: 85%;
+                }
+            }
+            .sub-illustration {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    // REALISATIONS 
+    .realisation-container {
+        .main-section {
+            .content-section {
+                width: 50%;
+                .sub-content {
+                    margin-top: 2rem;
+                    .projets, .illustrations {
+                        justify-content: initial;
+                        flex-wrap: wrap;
+                        p {
+                            padding: 0.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // CONTACT 
+    .contact-container {
+        .main-section {
+            .content-section {
+                width: 70%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 996px){
+    .logo-svg {
+        left: 40%;
+    }
+
+    // COMPETENCES 
+    .competences-container {
+        height: auto;
+        .main-section {
+            .content-section {
+                margin-bottom: 221px;
+            }
+        }
+    }
+
+    // CONTACT 
+    .contact-container {
+        height: 115vh;
+        .main-section {
+            .content-section {
+                width: 70%;
+                .sub-content {
+                    .formulaire {
+                        width: 100%;
+                    }
+                }
+                .item-media {
+                }
+                .info-media {
+                    position: relative;
+                    bottom: 0;
+                    padding-left: 0;
+                    margin-top: 2rem;
+                    border-left: none;
+                    display: flex;
+                    justify-content: space-around;
+                    a {
+                        text-align: center;
+                        padding-left: 0;
+                    }
+                }
+                .informations {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .logo-svg {
+        left: 30%;
+    }
+    // STRUCTURE
+    .section-container {
+        .main-section {
+            .summary-section {
+                left: calc(3vw + 0px);
+                width: 50px;
+            }
+            .content-section {
+                left: calc(3vw + 40px);
+                width: 75%;
+            }
+        }
+    }
+
+    // PRESENTATION 
+    .presentation-container {
+        .main-section {
+            .sub-illustration {
+                
+            }
+        }
+    }
+
+    // COMPETENCES 
+    .competences-container {
+        .main-section {
+            .summary-section {
+                .elements {
+                    .border-line {
+                        height: calc(100vh - 100px);
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .logo-svg {
+        left: 20%;
+    }
+    // STRUCTURE
+    .section-container {
+        .main-section {
+            .summary-section {
+                width: 40px;
+            }
+            .content-section {
+                left: calc(3vw + 10px);
+            }
+        }
+    }
+
+    // PRESENTATION 
+    .presentation-container {
+        .main-section {
+            margin-top: 4rem;
+            .sub-illustration {
+                display: none;
+            }
+        }
+    }
+}

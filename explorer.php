@@ -27,9 +27,9 @@
           <strong>Réalisations : </strong>
         </p>
         <p>
-          - création d'une maquette sur Adobe Xd <br>
-          - détermination du style graphique : couleurs, images, icones, boutons <br>
-          - développement de fonctions PHP : <br>
+          <i class="fas fa-angle-right"></i> création d'une maquette sur Adobe Xd <br>
+          <i class="fas fa-angle-right"></i> détermination du style graphique : couleurs, images, icones, boutons <br>
+          <i class="fas fa-angle-right"></i> développement de fonctions PHP : <br>
             • affichage et navigation des dossiers <br>
             • actions : ouvrir, renommer, copier, coller des fichiers <br>
             • afficher ou masquer les fichiers cachés <br>

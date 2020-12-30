@@ -23,8 +23,8 @@
   </div>
 
   <!-- LOGO -->
-  <!-- <div class="text-center">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 288 290.2" style="enable-background:new 0 0 288 290.2;" xml:space="preserve" width="288" height="290.20001220703125">
+  <div class="logo-svg">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 288 290.2" style="enable-background:new 0 0 288 290.2;" xml:space="preserve" width="250" height="280.20001220703125">
       <style type="text/css">
         .st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
         .st1{display:none;fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
@@ -69,7 +69,7 @@
         <path id="t12" class="st3 svg-elem-29" d="M185.8,155.7c0.9-2,4.8-2.7,4.8-2.7"></path>
       </g>
     </svg>
-  </div> -->
+  </div>
 
   <div class="main-section">
 

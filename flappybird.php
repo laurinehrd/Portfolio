@@ -27,12 +27,12 @@
           <strong>Réalisations : </strong>
         </p>
         <p>
-          - choix des images et personnages <br>
-          - gestion de la gravité <br>
-          - gestion des collisions <br>
-          - gestion du mouvement du personnage au clavier <br>
-          - affichage du score <br>
-          - ajout de son au différentes actions <br>
+          <i class="fas fa-angle-right"></i> choix des images et personnages <br>
+          <i class="fas fa-angle-right"></i> gestion de la gravité <br>
+          <i class="fas fa-angle-right"></i> gestion des collisions <br>
+          <i class="fas fa-angle-right"></i> gestion du mouvement du personnage au clavier <br>
+          <i class="fas fa-angle-right"></i> affichage du score <br>
+          <i class="fas fa-angle-right"></i> ajout de son au différentes actions <br>
         </p>
         <br>
         <p>
