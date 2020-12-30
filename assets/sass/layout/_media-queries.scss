@@ -90,14 +90,13 @@
         height: auto;
         .main-section {
             .content-section {
-                margin-bottom: 221px;
             }
         }
     }
 
     // CONTACT 
     .contact-container {
-        height: 115vh;
+        height: auto;
         .main-section {
             .content-section {
                 width: 70%;
@@ -132,18 +131,51 @@
 
 @media screen and (max-width: 700px){
     .logo-svg {
-        left: 30%;
+        position: relative;
+        left: 0;
+        top: 0;
+        text-align: center;
     }
+
     // STRUCTURE
     .section-container {
+        height: auto;
         .main-section {
+            display: block;
             .summary-section {
-                left: calc(3vw + 0px);
-                width: 50px;
+                position: initial;
+                top: 0px;
+                left: 0;
+                text-align: center;
+                width: 100%;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+        
+                .elements {
+                    p {
+                        color: white;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        opacity: 0.8;
+                        letter-spacing: 5px;
+                        text-align: center;
+                    }
+                    .border-line {
+                        display: none;
+                    }
+                    h2 {
+                        transform: none;
+                        margin: 0px auto 0 auto;
+                        writing-mode: horizontal-tb;
+                    }
+                }
+                
             }
             .content-section {
-                left: calc(3vw + 40px);
-                width: 75%;
+                position: initial;
+                left: 0;
+                width: 100%;
+                padding: 50px 40px 50px 40px;
             }
         }
     }
@@ -152,49 +184,59 @@
     .presentation-container {
         .main-section {
             .sub-illustration {
+                // position: initial;
+                // opacity: 1;
+                display: none;
                 
             }
         }
     }
 
     // COMPETENCES 
-    .competences-container {
-        .main-section {
-            .summary-section {
-                .elements {
-                    .border-line {
-                        height: calc(100vh - 100px);
-                    }
-                }
-            }
+    // .competences-container {
+    //     .main-section {
+    //         .summary-section {
+    //             .elements {
+    //                 .border-line {
+    //                     height: calc(100vh - 100px);
+    //                 }
+    //             }
+    //         }
             
-        }
+    //     }
+    // }
+
+    .arrow-center {
+        display: none;
+    }
+    
+    .arrow-to-top {
+        display: none;
     }
 
 }
 
 @media screen and (max-width: 500px){
-    .logo-svg {
-        left: 20%;
-    }
     // STRUCTURE
-    .section-container {
-        .main-section {
-            .summary-section {
-                width: 40px;
-            }
-            .content-section {
-                left: calc(3vw + 10px);
-            }
-        }
-    }
+    // .section-container {
+        
+    //     .main-section {
+    //         .summary-section {
+    //             width: 40px;
+    //         }
+    //         .content-section {
+    //             left: calc(3vw + 10px);
+    //         }
+    //     }
+    // }
 
     // PRESENTATION 
     .presentation-container {
         .main-section {
-            margin-top: 4rem;
+            // padding-top: 4rem;
+            // padding-bottom: 8rem;
             .sub-illustration {
-                display: none;
+                // display: none;
             }
         }
     }

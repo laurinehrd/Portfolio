@@ -893,12 +893,8 @@ body {
   .competences-container {
     height: auto;
   }
-  .competences-container .main-section .content-section {
-    margin-bottom: 221px;
-  }
-
   .contact-container {
-    height: 115vh;
+    height: auto;
   }
   .contact-container .main-section .content-section {
     width: 70%;
@@ -925,38 +921,59 @@ body {
 }
 @media screen and (max-width: 700px) {
   .logo-svg {
-    left: 30%;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
   }
 
+  .section-container {
+    height: auto;
+  }
+  .section-container .main-section {
+    display: block;
+  }
   .section-container .main-section .summary-section {
-    left: calc(3vw + 0px);
-    width: 50px;
+    position: initial;
+    top: 0px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .section-container .main-section .summary-section .elements p {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 0.8;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .section-container .main-section .summary-section .elements .border-line {
+    display: none;
+  }
+  .section-container .main-section .summary-section .elements h2 {
+    transform: none;
+    margin: 0px auto 0 auto;
+    writing-mode: horizontal-tb;
   }
   .section-container .main-section .content-section {
-    left: calc(3vw + 40px);
-    width: 75%;
+    position: initial;
+    left: 0;
+    width: 100%;
+    padding: 50px 40px 50px 40px;
   }
 
-  .competences-container .main-section .summary-section .elements .border-line {
-    height: calc(100vh - 100px);
-  }
-}
-@media screen and (max-width: 500px) {
-  .logo-svg {
-    left: 20%;
-  }
-
-  .section-container .main-section .summary-section {
-    width: 40px;
-  }
-  .section-container .main-section .content-section {
-    left: calc(3vw + 10px);
-  }
-
-  .presentation-container .main-section {
-    margin-top: 4rem;
-  }
   .presentation-container .main-section .sub-illustration {
+    display: none;
+  }
+
+  .arrow-center {
+    display: none;
+  }
+
+  .arrow-to-top {
     display: none;
   }
 }
