@@ -1,5 +1,5 @@
 <div class="footer">
-    <p>Tous droits réservés - 2020 | <a href="#">Mentions légales</a> | Illustrations faîtes par moi-même</p>
+    <p>Tous droits réservés - 2020 | <a href="mentionslegales.php">Mentions légales</a> | Illustrations faîtes par moi-même</p>
 </div>
 
 
