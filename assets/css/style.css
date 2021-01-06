@@ -528,7 +528,7 @@ body {
   transform-origin: bottom left;
   margin: 0 auto;
 }
-.section-container .main-section .summary-section .elements h2 {
+.section-container .main-section .summary-section .elements h3 {
   transform-origin: 50% 50%;
   transform: rotate(-180deg);
   margin: 30px auto 0 auto;
@@ -613,6 +613,13 @@ body {
 .presentation-container .main-section .content-section {
   top: 220px;
 }
+.presentation-container .main-section .content-section .sub-title p {
+  margin-bottom: 0.2em;
+}
+.presentation-container .main-section .content-section .sub-title h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
 .presentation-container .main-section .sub-illustration {
   position: absolute;
   bottom: 0;
@@ -639,7 +646,10 @@ body {
 }
 .competences-container .main-section .content-section .sub-title {
   width: 50%;
-  font-size: 1.3rem;
+}
+.competences-container .main-section .content-section .sub-title h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 .competences-container .main-section .content-section .sub-content h3 {
   font-size: 1.5rem;
@@ -669,6 +679,10 @@ body {
 .realisation-container .main-section .content-section {
   top: 150px;
   width: 70%;
+}
+.realisation-container .main-section .content-section .sub-title h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 .realisation-container .main-section .content-section .sub-content {
   margin-top: 6rem;
@@ -773,6 +787,11 @@ body {
 }
 .contact-container .main-section .content-section .informations p {
   padding-top: 1rem;
+}
+.contact-container .main-section .content-section .informations h3 {
+  font-size: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 .contact-container .main-section .content-section .item-media {
   display: flex;

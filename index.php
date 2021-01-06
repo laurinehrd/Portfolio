@@ -77,7 +77,7 @@
       <div class="elements">
         <p>01</p>
         <div class="border-line"></div>
-        <h2>Présentation</h2>
+        <h3>Présentation</h3>
       </div>
     </div>
 
@@ -87,9 +87,10 @@
       <div class="sub-title">
         <p>
           Hey ! <br>
-          Je suis Laurine, <br>
-          Développeuse web et webdesigner  
+          Je suis Laurine, 
         </p>
+        <h1> Développeuse web et webdesigner</h1>
+        
       </div>
       <div class="sub-content">
         <p>
@@ -126,16 +127,17 @@
       <div class="elements">
         <p>02</p>
         <div class="border-line"></div>
-        <h2>Compétences</h2>
+        <h3>Compétences</h3>
       </div>
     </div>
 
     <div class="content-section">
 
       <div class="sub-title">
-        <p>
-            J'ai développé mes compétences lors de mon parcours en autodidacte et grâce à ma formation
-        </p>
+        <h2>
+          Développement de sites internet, <br>
+          et création graphique
+        </h2>
       </div>
       <div class="sub-content">
         <div class="row">
@@ -233,7 +235,7 @@
       <div class="elements">
         <p>03</p>
         <div class="border-line"></div>
-        <h2>Réalisations</h2>
+        <h3>Réalisations</h3>
       </div>
     </div>
 
@@ -241,10 +243,10 @@
     <div class="content-section">
 
       <div class="sub-title">
-        <p>
+        <h2>
           Mes projets <br>
           et illustrations
-        </p>
+        </h2>
       </div>
 
       <div class="sub-content">
@@ -313,7 +315,7 @@
       <div class="elements">
         <p>04</p>
         <div class="border-line"></div>
-        <h2>Contact</h2>
+        <h3>Contact</h3>
       </div>
     </div>
 
@@ -393,7 +395,7 @@
       <div class="info-media text-center">
         <div class="informations">
           <span class="pr-4"><img class="icon-location" src="assets/images/placeholder_1.png"  onmouseover="this.src='assets/images/placeholder_2.png'" onmouseout="this.src='assets/images/placeholder_1.png'" alt="icon location">
-          <p>Dijon</p></span>
+          <h3>Dijon</h3></span>
           <span class="pl-4"><img class="icon-phone" src="assets/images/smartphone.png"  onmouseover="this.src='assets/images/smartphone_2.png'" onmouseout="this.src='assets/images/smartphone.png'" alt="icon phone"><p><a href="tel=0651804225">06 51 80 42 25</a></p></span>
         </div>
         <div class="item-media">

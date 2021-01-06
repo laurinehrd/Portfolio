@@ -22,11 +22,12 @@
 
             .sub-title {
                 width: 50%;
-                font-size: 1.3rem;
-                // &:after {
-                //     content: "";
-                //     border-bottom: 3px solid white;
-                // }
+
+                h2 {
+                    font-size: 1.6rem;
+                    font-weight: bold;
+
+                }
             }
             .sub-content {
                 h3 {

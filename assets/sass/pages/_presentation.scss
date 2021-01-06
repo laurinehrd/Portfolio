@@ -16,6 +16,16 @@
 
         .content-section {
             top: 220px;
+
+            .sub-title {
+                p {
+                    margin-bottom: 0.2em;
+                }
+                h1 {
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                }
+            }
         }
 
         .sub-illustration {

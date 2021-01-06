@@ -9,7 +9,7 @@
       <div class="elements">
         <p>03</p>
         <div class="border-line"></div>
-        <h2>Réalisations</h2>
+        <h3>Réalisations</h3>
       </div>
     </div>
 
