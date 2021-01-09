@@ -104,7 +104,7 @@ body {
 .menu #overlay-content a .items-a:hover::after {
   content: "";
   position: absolute;
-  background-color: #c8607f;
+  background-color: #7a6bea;
   width: 100%;
   height: 3px;
   bottom: -10px;
@@ -490,7 +490,7 @@ body {
   }
 }
 .footer {
-  background-color: #7A2F45;
+  background-color: #7a6bea;
   width: 100%;
   color: black;
   height: 10vh;
@@ -607,7 +607,7 @@ body {
 }
 
 .presentation-container {
-  background: linear-gradient(0deg, #7bc9cf, #b0e0e0);
+  background: linear-gradient(45deg, #7a6bea, #d6d1fb);
 }
 .presentation-container .main-section .summary-section .elements .border-line {
   height: calc(100vh - 500px);
@@ -636,7 +636,7 @@ body {
 }
 
 .competences-container {
-  background: linear-gradient(0deg, #c8607f, #bb98b2);
+  background: linear-gradient(270deg, #7a6bea, #d6d1fb);
   position: relative;
 }
 .competences-container .main-section .summary-section .elements .border-line {
@@ -668,11 +668,11 @@ body {
 .competences-container .main-section .content-section .sub-content .globale .hover-me {
   opacity: 0.8;
   font-style: oblique;
-  color: #bb98b2;
+  color: #d6d1fb;
 }
 
 .realisation-container {
-  background: linear-gradient(0deg, #7bc9cf, #b0e0e0);
+  background: linear-gradient(45deg, #7a6bea, #d6d1fb);
   position: relative;
 }
 .realisation-container .main-section .summary-section .elements .border-line {
@@ -698,7 +698,7 @@ body {
 }
 .realisation-container .main-section .content-section .sub-content .projets p, .realisation-container .main-section .content-section .sub-content .illustrations p {
   padding: 1rem;
-  color: #b0e0e0;
+  color: #d6d1fb;
 }
 .realisation-container .main-section .content-section .sub-content .projets p span, .realisation-container .main-section .content-section .sub-content .illustrations p span {
   display: none;
@@ -714,7 +714,7 @@ body {
 }
 
 .contact-container {
-  background: linear-gradient(0deg, #c8607f, #bb98b2);
+  background: linear-gradient(270deg, #7a6bea, #d6d1fb);
   position: relative;
 }
 .contact-container .main-section .summary-section .elements .border-line {
@@ -769,13 +769,17 @@ body {
 }
 .contact-container .main-section .content-section .sub-content .bouton-submit {
   margin-top: 1rem;
+  font-weight: bold;
   color: black;
   text-transform: uppercase;
   border: none;
-  background-color: #c8607f;
+  background-color: #7a6bea;
+  border-radius: 5px;
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 #dddddd;
 }
 .contact-container .main-section .content-section .sub-content .bouton-submit:hover {
-  background-color: #7bc9cf;
+  background-color: #7a6bea;
+  box-shadow: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -1px -1px 6px 0 rgba(221, 221, 221, 0.8);
 }
 .contact-container .main-section .content-section .informations {
   display: flex;
@@ -820,9 +824,24 @@ body {
   text-decoration: none;
   color: black;
 }
+.contact-container .fleche {
+  height: 40px;
+  width: 100px;
+  margin: auto;
+}
+.contact-container .fleche a {
+  display: flex;
+  justify-content: center;
+}
+.contact-container .fleche a img {
+  width: 50%;
+  height: 22%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 #dddddd;
+}
 
 .projets-container {
-  background: linear-gradient(0deg, #7bc9cf, #b0e0e0);
+  background: linear-gradient(45deg, #7a6bea, #d6d1fb);
   position: relative;
 }
 .projets-container .main-section .summary-section .elements .border-line {
@@ -841,7 +860,7 @@ body {
   margin-right: 1rem;
 }
 .projets-container .main-section .content-section .sub-content i {
-  color: #bb98b2;
+  color: #d6d1fb;
 }
 .projets-container .main-section .content-section .sub-content-illustration {
   margin-top: 1.8rem;
@@ -863,7 +882,7 @@ body {
 }
 
 .mentionslegales {
-  background: linear-gradient(0deg, #7bc9cf, #b0e0e0);
+  background: linear-gradient(45deg, #7a6bea, #d6d1fb);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -1045,7 +1064,7 @@ body {
     width: 2px;
     margin: 20px auto;
   }
-  .section-container .main-section .summary-section .elements h2 {
+  .section-container .main-section .summary-section .elements h3 {
     transform: none;
     margin: 0px auto 0 auto;
     writing-mode: horizontal-tb;

@@ -415,6 +415,12 @@
   </div>
 
   
+  <div class="fleche">
+    <a href="#presentation">
+      <img src="assets/images/down-arrow.png" alt="">
+    </a>
+  </div>
+  
 
 
 </div>

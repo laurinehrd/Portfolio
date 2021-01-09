@@ -72,12 +72,19 @@
                   }
                   .bouton-submit{
                     margin-top: 1rem;
+                    font-weight: bold;
                     color: black;
                     text-transform: uppercase;
                     border: none;
                     background-color: $secondDark;
+                    border-radius: 5px;
+                    box-shadow: 
+                    6px 6px 16px 0 rgba(0, 0, 0, 0.2),
+                    -6px -6px 16px 0 rgb(221, 221, 221);
                     &:hover{
                       background-color: $primaryDark;
+                      box-shadow: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
+                      inset -1px -1px 6px 0 rgba(221, 221, 221, 0.8);
                     }
                 }
 
@@ -133,5 +140,25 @@
         }
     }
 
+    .fleche {
+        height: 40px;
+        width: 100px;
+        margin: auto;
+        a {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 50%;
+                height: 22%;
+                border-radius: 10px;
+                box-shadow: 
+                6px 6px 16px 0 rgba(0, 0, 0, 0.2),
+                -6px -6px 16px 0 rgb(221, 221, 221);
+            }
+        }
+        
+        
+        
+    }
     
 }

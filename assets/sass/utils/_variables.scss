@@ -1,13 +1,19 @@
 //color
 
-$primaryDark : #7bc9cf;
-$primaryLight : #b0e0e0;
+// $primaryDark : #7bc9cf;
+// $primaryLight : #b0e0e0;
+$primaryDark : #7a6bea;
+$primaryLight : #d6d1fb;
 
-$gradientPrimary : linear-gradient(0deg, #7bc9cf, #b0e0e0);
-$gradientSecond : linear-gradient(0deg, #c8607f, #bb98b2);
+// $gradientPrimary : linear-gradient(0deg, #7bc9cf, #b0e0e0);
+$gradientPrimary : linear-gradient(45deg, #7a6bea, #d6d1fb);
+// $gradientSecond : linear-gradient(0deg, #c8607f, #bb98b2);
+$gradientSecond : linear-gradient(270deg, #7a6bea, #d6d1fb);
 
-$secondDark : #c8607f;
-$secondLight : #bb98b2;
+// $secondDark : #c8607f;
+// $secondLight : #bb98b2;
+$secondDark : #7a6bea;
+$secondLight : #d6d1fb;
 
 // $primary : #a997df;
 // $second : #4f517d;
