@@ -13,20 +13,62 @@
       </div>
     </div>
 
-
     <div class="content-section">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="illustration illustration-1">
 
-      <div class="sub-title">
-        <p>
-          mes illustrations
-        </p>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-2">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-3">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-4">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-5">
+
+          </div>
+        </div>
+
       </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="illustration illustration-6">
 
-      <div class="sub-content sub-content-illustration">
-        <img class="illustration" src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen">
-        <img class="illustration" src="assets/images/Bryggen.jpg" alt="illustration Bryggen">
-        <img class="illustration" src="assets/images/Vik-compressor.jpg" alt="illustration Vik">
-        <img class="illustration" src="assets/images/Kakashi2.jpg" alt="illustration personnage">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-7">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-8">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-9">
+
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="illustration illustration-10">
+
+          </div>
+        </div>
+
       </div>
 
     </div>

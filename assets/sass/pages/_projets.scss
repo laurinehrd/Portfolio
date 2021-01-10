@@ -7,6 +7,7 @@
     .main-section {
 
         .summary-section {
+            position: fixed;
 
             .elements {
                 .border-line {
@@ -16,42 +17,75 @@
         }
 
         .content-section {
-            top: 150px;
-            width: 70%;
-
-            .sub-content {
-                margin-top: 4rem;
-                width: 50%;
-                img {
-                    width: 2rem;
-                    margin-right: 1rem;
-                }
-                i {
-                    color: $secondLight;
+            width: 80%;
+            top: 25px;
+            .row {
+                .col-lg-6 {
+                    .projet {
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center;
+                        width: 60%;
+                        height: 40vh;
+                        margin: auto;
+                        &:hover{
+                            transform: scale(2);
+                            transition: 1.2s;
+                        }
+                    }
+                    .projet-1 {
+                        background-image: url('../images/mockup-egalite.png');
+                    }
+                    .projet-2 {
+                        background-image: url('../images/mockup-files-explorer.png');
+                    }
+                    .projet-3 {
+                        background-image: url('../images/mockup-flappybird.png');
+                    }
+                    .projet-4 {
+                        background-image: url('../images/mockup-maquette.png');
+                    }
                 }
             }
-            .sub-content-illustration {
-                margin-top: 1.8rem;
-                display: flex;
+
+        }
+        // .content-section {
+        //     top: 150px;
+        //     width: 70%;
+
+        //     .sub-content {
+        //         margin-top: 4rem;
+        //         width: 50%;
+        //         img {
+        //             width: 2rem;
+        //             margin-right: 1rem;
+        //         }
+        //         i {
+        //             color: $secondLight;
+        //         }
+        //     }
+        //     .sub-content-illustration {
+        //         margin-top: 1.8rem;
+        //         display: flex;
                 
-                .illustration {
-                    width: 20em;
-                }
-            }
+        //         .illustration {
+        //             width: 20em;
+        //         }
+        //     }
 
-        }
+        // }
 
-        .sub-illustration {
-            position: absolute;
-            right: 0;
-            top: 10vh;
-            .large-img {
-                width: 40em;
-            }
-            img {
-                width: 50em;
-            }
-        }
+        // .sub-illustration {
+        //     position: absolute;
+        //     right: 0;
+        //     top: 10vh;
+        //     .large-img {
+        //         width: 40em;
+        //     }
+        //     img {
+        //         width: 50em;
+        //     }
+        // }
 
     }
 

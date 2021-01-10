@@ -1,0 +1,105 @@
+@import "../utils/variables";
+
+.projets-container {
+    background: $gradientPrimary;
+    position: relative;
+
+    .main-section {
+
+        .summary-section {
+            position: fixed;
+
+            .elements {
+                .border-line {
+                    height: calc(100vh - 485px);
+                }
+            }
+        }
+
+        .content-section {
+            width: 85%;
+            top: 60px;
+            .row {
+                .col-lg-2 {
+                    .illustration {
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center;
+                        width: 100%;
+                        height: 40vh;
+                        margin: auto;
+                        &:hover{
+                            transform: scale(2);
+                            transition: 1.2s;
+                        }
+                    }
+                    .illustration-1 {
+                        background-image: url('../images/Preikestolen-compressor.jpg');
+                        &:hover {
+                            transform: scale(2) translate(50px, 9.5vh);
+                        }
+                    }
+                    .illustration-2 {
+                        background-image: url('../images/Bryggen.jpg');
+                        &:hover {
+                            transform: scale(2) translate(0, 9.5vh);
+                        }
+                    }
+                    .illustration-3 {
+                        background-image: url('../images/bryggen2.jpg');
+                        &:hover {
+                            transform: scale(2) translate(0, 9.5vh);
+                        }
+                    }
+                    .illustration-4 {
+                        background-image: url('../images/Vik-compressor.jpg');
+                        &:hover {
+                            transform: scale(2) translate(0, 9.5vh);
+                        }
+                    }
+                    .illustration-5 {
+                        background-image: url('../images/Kakashi2.jpg');
+                        &:hover {
+                            transform: scale(2) translate(0, 9.5vh);
+                        }
+                    }
+                    .illustration-6 {
+                        background-image: url('../images/panda.png');
+                        &:hover {
+                            transform: scale(2) translate(50px, -50px);
+                        }
+                    }
+                    .illustration-7 {
+                        background-image: url('../images/home.png');
+                        &:hover {
+                            transform: scale(2) translate(0, -50px);
+                        }
+                    }
+                    .illustration-8 {
+                        background-image: url('../images/meduse.png');
+                        &:hover {
+                            transform: scale(2) translate(0, -50px);
+                        }
+                    }
+                    .illustration-9 {
+                        background-image: url('../images/earth.png');
+                        &:hover {
+                            transform: scale(2) translate(0, -50px);
+                        }
+                    }
+                    .illustration-10 {
+                        background-image: url('../images/gost.gif');
+                        &:hover {
+                            transform: scale(2) translate(0, -50px);
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+
+    }
+
+
+}

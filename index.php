@@ -244,14 +244,47 @@
 
       <div class="sub-title">
         <h2>
-          Mes projets <br>
-          et illustrations
+          Mes réalisations 
         </h2>
       </div>
 
       <div class="sub-content">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="background">
+            <div class="blur">
+              <div class="content">
+                <h3>Mes projets</h3>
+                <p>
+                  Intégration web <br>
+                  Développement web <br>
+                  Maquette Photoshop 
+                </p>
+                <a class="btn btn-light" href="projets.php" role="button">Voir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="background background-illustration">  
+            <div class="blur">
+              <div class="content">
+                <h3>Mes illustrations</h3>
+                <p>
+                  Paysages <br>
+                  Personnages <br>
+                  Flat design 
+                </p>
+                <a class="btn btn-light" href="illustrations.php" role="button">Voir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         
-        <div class="projets">
+        <!-- <div class="projets">
           <p>
             <span><a href="flappybird.php"><img src="assets/images/mockup-flappybird.png" alt="mockup flappybird"></a></span>
             Flappybird
@@ -268,9 +301,9 @@
             <span><a href="egalite.php"><img src="assets/images/mockup-egalite.png" alt="mockup egalité"></a></span>
             égalité
           </p>
-        </div>
+        </div> -->
 
-        <div class="illustrations">
+        <!-- <div class="illustrations">
           <p>
             <span><a href="illustrations.php"><img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen"></a></span>
             Preikestolen
@@ -287,7 +320,7 @@
             <span><a href="illustrations.php"><img src="assets/images/Kakashi2.jpg" alt="illustration personnage"></a></span>
             Personnages
           </p>
-        </div>
+        </div> -->
         
       </div>
 
@@ -297,7 +330,7 @@
   </div>
 
   <div class="arrow-center">
-    <a href="#contact">
+    <a href="#contact" role="button" class="btn">
       <img src="assets/images/arrow.png" alt="arrow">
     </a>
   </div>
@@ -414,12 +447,7 @@
     </a>
   </div>
 
-  
-  <div class="fleche">
-    <a href="#presentation">
-      <img src="assets/images/down-arrow.png" alt="">
-    </a>
-  </div>
+
   
 
 

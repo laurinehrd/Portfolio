@@ -577,6 +577,10 @@ body {
   left: 50%;
   z-index: 2;
 }
+.arrow-center:hover {
+  transform: translate(0, 20px);
+  transition: 1.2s;
+}
 
 .arrow-to-top {
   position: absolute;
@@ -584,6 +588,10 @@ body {
   right: 30px;
   z-index: 2;
   transform: rotate(180deg);
+}
+.arrow-to-top:hover {
+  transform: rotate(180deg) translate(0px, 20px);
+  transition: 1s;
 }
 
 .arrow-back {
@@ -603,7 +611,8 @@ body {
   padding-right: 1rem;
 }
 .arrow-back:hover {
-  margin-left: 1rem;
+  transform: translate(-20px, 0);
+  transition: 1s;
 }
 
 .presentation-container {
@@ -687,30 +696,62 @@ body {
   font-weight: bold;
 }
 .realisation-container .main-section .content-section .sub-content {
-  margin-top: 6rem;
+  margin-top: 4rem;
   font-size: 2rem;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background {
+  width: 95%;
+  border-radius: 10px;
+  background-image: url("../images/mockup-egalite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur {
+  background: rgba(255, 255, 255, 0.239);
+  backdrop-filter: blur(4px);
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+  text-align: center;
+  height: 100%;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content h3 {
+  margin-bottom: 1rem;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content p {
+  font-size: 1rem;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+}
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content a {
+  border-radius: 5px;
   text-transform: uppercase;
   font-weight: bold;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  background-color: #d6d1fb;
+  border: none;
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 #dddddd;
 }
-.realisation-container .main-section .content-section .sub-content .projets, .realisation-container .main-section .content-section .sub-content .illustrations {
-  display: flex;
-  justify-content: space-around;
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content a:hover {
+  box-shadow: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -1px -1px 6px 0 rgba(221, 221, 221, 0.8);
+  border: none;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
-.realisation-container .main-section .content-section .sub-content .projets p, .realisation-container .main-section .content-section .sub-content .illustrations p {
-  padding: 1rem;
-  color: #d6d1fb;
-}
-.realisation-container .main-section .content-section .sub-content .projets p span, .realisation-container .main-section .content-section .sub-content .illustrations p span {
-  display: none;
-}
-.realisation-container .main-section .content-section .sub-content .projets p:hover, .realisation-container .main-section .content-section .sub-content .illustrations p:hover {
-  color: white;
-}
-.realisation-container .main-section .content-section .sub-content .projets p:hover span, .realisation-container .main-section .content-section .sub-content .illustrations p:hover span {
-  display: block;
-}
-.realisation-container .main-section .content-section .sub-content .projets p:hover span img, .realisation-container .main-section .content-section .sub-content .illustrations p:hover span img {
-  width: 6em;
+.realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background-illustration {
+  background-image: url("../images/Preikestolen-compressor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .contact-container {
@@ -774,12 +815,15 @@ body {
   text-transform: uppercase;
   border: none;
   background-color: #7a6bea;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 5px;
   box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 #dddddd;
 }
 .contact-container .main-section .content-section .sub-content .bouton-submit:hover {
   background-color: #7a6bea;
   box-shadow: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -1px -1px 6px 0 rgba(221, 221, 221, 0.8);
+  border: none;
 }
 .contact-container .main-section .content-section .informations {
   display: flex;
@@ -824,61 +868,131 @@ body {
   text-decoration: none;
   color: black;
 }
-.contact-container .fleche {
-  height: 40px;
-  width: 100px;
+
+.projets-container {
+  background: linear-gradient(45deg, #7a6bea, #d6d1fb);
+  position: relative;
+}
+.projets-container .main-section .summary-section {
+  position: fixed;
+}
+.projets-container .main-section .summary-section .elements .border-line {
+  height: calc(100vh - 485px);
+}
+.projets-container .main-section .content-section {
+  width: 80%;
+  top: 25px;
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 60%;
+  height: 40vh;
   margin: auto;
 }
-.contact-container .fleche a {
-  display: flex;
-  justify-content: center;
+.projets-container .main-section .content-section .row .col-lg-6 .projet:hover {
+  transform: scale(2);
+  transition: 1.2s;
 }
-.contact-container .fleche a img {
-  width: 50%;
-  height: 22%;
-  border-radius: 10px;
-  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 #dddddd;
+.projets-container .main-section .content-section .row .col-lg-6 .projet-1 {
+  background-image: url("../images/mockup-egalite.png");
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet-2 {
+  background-image: url("../images/mockup-files-explorer.png");
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet-3 {
+  background-image: url("../images/mockup-flappybird.png");
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet-4 {
+  background-image: url("../images/mockup-maquette.png");
 }
 
 .projets-container {
   background: linear-gradient(45deg, #7a6bea, #d6d1fb);
   position: relative;
 }
+.projets-container .main-section .summary-section {
+  position: fixed;
+}
 .projets-container .main-section .summary-section .elements .border-line {
   height: calc(100vh - 485px);
 }
 .projets-container .main-section .content-section {
-  top: 150px;
-  width: 70%;
+  width: 85%;
+  top: 60px;
 }
-.projets-container .main-section .content-section .sub-content {
-  margin-top: 4rem;
-  width: 50%;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  margin: auto;
 }
-.projets-container .main-section .content-section .sub-content img {
-  width: 2rem;
-  margin-right: 1rem;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration:hover {
+  transform: scale(2);
+  transition: 1.2s;
 }
-.projets-container .main-section .content-section .sub-content i {
-  color: #d6d1fb;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-1 {
+  background-image: url("../images/Preikestolen-compressor.jpg");
 }
-.projets-container .main-section .content-section .sub-content-illustration {
-  margin-top: 1.8rem;
-  display: flex;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-1:hover {
+  transform: scale(2) translate(50px, 9.5vh);
 }
-.projets-container .main-section .content-section .sub-content-illustration .illustration {
-  width: 20em;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-2 {
+  background-image: url("../images/Bryggen.jpg");
 }
-.projets-container .main-section .sub-illustration {
-  position: absolute;
-  right: 0;
-  top: 10vh;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-2:hover {
+  transform: scale(2) translate(0, 9.5vh);
 }
-.projets-container .main-section .sub-illustration .large-img {
-  width: 40em;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-3 {
+  background-image: url("../images/bryggen2.jpg");
 }
-.projets-container .main-section .sub-illustration img {
-  width: 50em;
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-3:hover {
+  transform: scale(2) translate(0, 9.5vh);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-4 {
+  background-image: url("../images/Vik-compressor.jpg");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-4:hover {
+  transform: scale(2) translate(0, 9.5vh);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-5 {
+  background-image: url("../images/Kakashi2.jpg");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-5:hover {
+  transform: scale(2) translate(0, 9.5vh);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-6 {
+  background-image: url("../images/panda.png");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-6:hover {
+  transform: scale(2) translate(50px, -50px);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-7 {
+  background-image: url("../images/home.png");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-7:hover {
+  transform: scale(2) translate(0, -50px);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-8 {
+  background-image: url("../images/meduse.png");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-8:hover {
+  transform: scale(2) translate(0, -50px);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-9 {
+  background-image: url("../images/earth.png");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-9:hover {
+  transform: scale(2) translate(0, -50px);
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-10 {
+  background-image: url("../images/gost.gif");
+}
+.projets-container .main-section .content-section .row .col-lg-2 .illustration-10:hover {
+  transform: scale(2) translate(0, -50px);
 }
 
 .mentionslegales {
