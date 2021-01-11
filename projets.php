@@ -43,10 +43,6 @@
 
     </div>
 
-    <!-- <div class="sub-illustration">
-        <img class="large-img" src="assets/images/mockup-maquette.png" alt="mockup maquette">
-    </div> -->
-
 
   </div>
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/laurinehrd/Portfolio/issues"
   },
-  "homepage": "https://github.com/laurinehrd/Portfolio#readme"
+  "homepage": "https://github.com/laurinehrd/Portfolio#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

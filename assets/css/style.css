@@ -711,6 +711,7 @@ body {
 .realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur {
   background: rgba(255, 255, 255, 0.239);
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   height: 100%;
   width: 100%;
   border-radius: 10px;
@@ -898,14 +899,26 @@ body {
 .projets-container .main-section .content-section .row .col-lg-6 .projet-1 {
   background-image: url("../images/mockup-egalite.png");
 }
+.projets-container .main-section .content-section .row .col-lg-6 .projet-1:hover {
+  transform: scale(2) translate(0, 9.5vh);
+}
 .projets-container .main-section .content-section .row .col-lg-6 .projet-2 {
   background-image: url("../images/mockup-files-explorer.png");
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet-2:hover {
+  transform: scale(2) translate(-50px, 9.5vh);
 }
 .projets-container .main-section .content-section .row .col-lg-6 .projet-3 {
   background-image: url("../images/mockup-flappybird.png");
 }
+.projets-container .main-section .content-section .row .col-lg-6 .projet-3:hover {
+  transform: scale(2) translate(0, -50px);
+}
 .projets-container .main-section .content-section .row .col-lg-6 .projet-4 {
   background-image: url("../images/mockup-maquette.png");
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet-4:hover {
+  transform: scale(2) translate(-50px, -11vh);
 }
 
 .projets-container {
@@ -977,13 +990,14 @@ body {
   transform: scale(2) translate(0, -50px);
 }
 .projets-container .main-section .content-section .row .col-lg-2 .illustration-8 {
-  background-image: url("../images/meduse.png");
+  background-image: url("../images/meduse.jpg");
 }
 .projets-container .main-section .content-section .row .col-lg-2 .illustration-8:hover {
   transform: scale(2) translate(0, -50px);
 }
 .projets-container .main-section .content-section .row .col-lg-2 .illustration-9 {
   background-image: url("../images/earth.png");
+  background-size: contain;
 }
 .projets-container .main-section .content-section .row .col-lg-2 .illustration-9:hover {
   transform: scale(2) translate(0, -50px);

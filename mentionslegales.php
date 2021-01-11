@@ -8,12 +8,12 @@
         <h2>Informations légales</h2>
         <h3>1. Présentation du site.</h3>
         <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="http://laurineh.promo-42.codeur.online/portfolio/">laurineh.promo-42.codeur.online/portfolio</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
-        <p><strong>Propriétaire</strong> : Laurine Herard –  – 21000 Dijon<br />
+        <p><strong>Propriétaire</strong> : Laurine Herard – 21000 Dijon<br />
         <strong>Créateur</strong>  : <a href="https://laurineh.promo-42.codeur.online/portfolio">Laurine Herard</a><br />
         <strong>Responsable publication</strong> : Laurine Herard – laurine.herard21@gmail.com<br />
         Le responsable publication est une personne physique ou une personne morale.<br />
         <strong>Webmaster</strong> : Laurine Herard – laurine.herard21@gmail.com<br />
-        <strong>Hébergeur</strong> : online – 21000 Dijon<br />
+        <strong>Hébergeur</strong> : Onlineformapro – Vesoul<br />
         Crédits : <br />
         Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/">Mentions légales</a></p>
 

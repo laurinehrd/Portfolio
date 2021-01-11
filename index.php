@@ -94,7 +94,7 @@
       </div>
       <div class="sub-content">
         <p>
-          J'ai 23 ans et je suis dijonnaise. Après avoir travaillé dans la vente, j'ai rejoins l'univers du développement web en suivant une formation à l'Access Code School. Je me suis découvert un attrait pour la création graphique : j'aime créer des illustrations, définir une identité visuelle, et développer ma créativité pour rendre les choses belles. Avec une envie d'apprendre de nouvelles choses, j'aime développer des sites internet et apprendre de nouveaux langages web.
+          J'ai 24 ans et je suis dijonnaise. Après avoir travaillé dans la vente, j'ai rejoins l'univers du développement web en suivant une formation à l'Access Code School. Je me suis découvert un attrait pour la création graphique : j'aime créer des illustrations, définir une identité visuelle, et développer ma créativité pour rendre les choses belles. Avec une envie d'apprendre de nouvelles choses, j'aime développer des sites internet et apprendre de nouveaux langages web.
         </p>
       </div>
 
@@ -109,7 +109,7 @@
 
   <div class="arrow-center">
     <a href="#competences">
-      <img src="assets/images/arrow.png" alt="">
+      <img src="assets/images/arrow.png" alt="icone arrow">
     </a>
   </div>
 
@@ -144,7 +144,7 @@
           <div class="col-lg-4">
             <div class="card-competences p-3 bg-transparent text-center">
                 <img src="assets/images/icone-fleur.png" alt="icone fleur" oncontextmenu="return false" onmousedown="return false">
-                <div class="">
+                <div>
                   <h3>Front end</h3>
                   <div class="globale globale1">
                     <div class="front front1">
@@ -167,7 +167,7 @@
           <div class="col-lg-4">
             <div class="card-competences p-3 bg-transparent text-center">
               <img src="assets/images/icone-arbre.png" alt="icone arbre" oncontextmenu="return false" onmousedown="return false">
-                <div class="">
+                <div>
                   <h3>Back end</h3>
                   <div class="globale globale2">
                     <div class="front front2">
@@ -189,7 +189,7 @@
           <div class="col-lg-4">
             <div class="card-competences p-3 bg-transparent text-center">
               <img src="assets/images/icone-ampoule.png" alt="icone ampoule fleuris" oncontextmenu="return false" onmousedown="return false">
-                <div class="">
+                <div>
                   <h3>Design et créativité</h3>
                   <div class="globale globale3">
                     <div class="front front3">
@@ -219,7 +219,7 @@
 
   <div class="arrow-center">
     <a href="#realisations">
-      <img src="assets/images/arrow.png" alt="arrow">
+      <img src="assets/images/arrow.png" alt="icon arrow">
     </a>
   </div>
 
@@ -284,44 +284,6 @@
         </div>
       </div>
         
-        <!-- <div class="projets">
-          <p>
-            <span><a href="flappybird.php"><img src="assets/images/mockup-flappybird.png" alt="mockup flappybird"></a></span>
-            Flappybird
-          </p>
-          <p>
-            <span><a href="explorer.php"><img src="assets/images/mockup-files-explorer.png" alt="mockup files explorer"></a></span>
-            Explorateur
-          </p>
-          <p>
-            <span><a href="maquette.php"><img src="assets/images/mockup-maquette.png" alt="mockup maquette"></a></span>
-            Maquette
-          </p>
-          <p>
-            <span><a href="egalite.php"><img src="assets/images/mockup-egalite.png" alt="mockup egalité"></a></span>
-            égalité
-          </p>
-        </div> -->
-
-        <!-- <div class="illustrations">
-          <p>
-            <span><a href="illustrations.php"><img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen"></a></span>
-            Preikestolen
-          </p>
-          <p>
-            <span><a href="illustrations.php"><img src="assets/images/Bryggen.jpg" alt="illustration Bryggen"></a></span>
-            Bryggen
-          </p>
-          <p>
-            <span><a href="illustrations.php"><img src="assets/images/Vik-compressor.jpg" alt="illustration Vik"></a></span>
-            Vik
-          </p>
-          <p>
-            <span><a href="illustrations.php"><img src="assets/images/Kakashi2.jpg" alt="illustration personnage"></a></span>
-            Personnages
-          </p>
-        </div> -->
-        
       </div>
 
     </div>
@@ -331,7 +293,7 @@
 
   <div class="arrow-center">
     <a href="#contact" role="button" class="btn">
-      <img src="assets/images/arrow.png" alt="arrow">
+      <img src="assets/images/arrow.png" alt="icon arrow">
     </a>
   </div>
 
@@ -418,8 +380,6 @@
 
           <div class="uk-divider-vertical"></div>
 
-              
-
 
         </div>
 
@@ -443,470 +403,15 @@
 
   <div class="arrow-to-top">
     <a href="#presentation">
-      <img src="assets/images/arrow.png" alt="">
+      <img src="assets/images/arrow.png" alt="icon back to top">
     </a>
   </div>
 
 
-  
-
-
 </div>
 
 
 
-
-
-
-<!-- ************************MES PROJETS************************** -->
-
-<!-- <div class="projet">
-
-  <h2 class="h2blue" id="projets">Mes projets</h2>
-
-  <div class="container">
-
-
-    <div class="content-project" uk-filter="target: .js-filter">
-
-      <ul class="uk-subnav uk-subnav-pill">
-        <li class="uk-active" uk-filter-control><a href="#">Tous mes projets</a></li>
-        <li uk-filter-control="[data-name='develop']"><a href="#">Développement web</a></li>
-        <li uk-filter-control="[data-name='webdesign']"><a href="#">Webdesign</a></li>
-        <li uk-filter-control="[data-name='illustrations']"><a href="#">Illustrations</a></li>
-      </ul>
-
-      <ul class="card-project js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
-        <li data-name="develop">
-          <a href="#flappybird" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/flappy-bird.png" alt="image flappy bird">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-text-middle">
-                  <h3 class="">Flappy Bird</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="webdesign">
-          <a href="#refonte" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Refonte d'un site web</h3>
-                </div>
-              </div>
-            </div>
-          </a>        
-        </li>
-        <li data-name="develop">
-          <a href="#themewp" uk-toggle>
-              <div class="uk-card">
-                <div class="uk-card-panel contour uk-transition-toggle">
-                  <img  src="assets/images/themewp.png" alt="image du theme wp">
-                  <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                    <h3 class="">WordPress</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
-        </li>
-        <li data-name="illustrations">
-          <a href="#" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/Vik-compressor.jpg" alt="illustration Vik" oncontextmenu="return false" onmousedown="return false">                
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Vik</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="illustrations">
-          <a href="#" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/Preikestolen-compressor.jpg" alt="illustration Preikestolen" oncontextmenu="return false" onmousedown="return false">                
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Preikestolen</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="illustrations">
-          <a href="#" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/Bryggen.jpg" alt="illustration Bryggen" oncontextmenu="return false" onmousedown="return false">                
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Bryggen</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="webdesign" data-name="develop">
-          <a href="#wpinegalite" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/wpinegalite.png" alt="bannière les écarts de rémunération">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Les écarts de rémunération</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-         <li data-name="illustrations">
-          <a href="#">
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/bryggen2.jpg" alt="illustration Bryggen minimaliste" oncontextmenu="return false" onmousedown="return false">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Bryggen</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="develop">
-          <a href="#filesexplorer" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="assets/images/files-explorer.png" alt="explorateur de fichiers">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Explorateur de fichiers</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li data-name="develop">
-          <a href="#exemple" uk-toggle>
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img  src="" alt="">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Explorateur de fichiers</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-         <li data-name="illustrations">
-           <a href="#">
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-                <img src="assets/images/Kakashi.jpg" alt="illustration Kakashi" oncontextmenu="return false" onmousedown="return false">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Kakashi</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li> -->
-        <!-- <li data-name="illustrations">
-           <a href="#">
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-              <img src="assets/images/Itachi.jpg" alt="illustration Itachi" oncontextmenu="return false" onmousedown="return false">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Itachi</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li> -->
-        <!-- <li data-name="illustrations">
-           <a href="#">
-            <div class="uk-card">
-              <div class="uk-card-panel contour uk-transition-toggle">
-              <img src="assets/images/Naruto.jpg" alt="illustration Naruto" oncontextmenu="return false" onmousedown="return false">
-                <div class="titre-projet uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
-                  <h3 class="">Naruto</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li> 
-      </ul>
-
-    </div>
-
-  </div> 
-
-   modal 
-
-   refonte 
-  <div id="refonte" class="" uk-modal>
-    <div class="uk-modal-dialog">
-
-        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
-
-        <div class="pt-3">
-          <img  src="assets/images/pageaccueil.png" alt="image accueil tdou">
-        </div>
-
-        <div class="text-center">
-          <h2>Refonte d'un site web</h2>
-        </div>
-
-
-        <div class="container"> 
-
-          <h3 class="text-uppercase">l'objectif</h3>
-          <p>Elaborer une maquette Photoshop pour la refonte d'un site web. Le but était de le moderniser tout en respectant sa charte graphique et sa couleur dominante, le noir. </p>
-
-          <h3 class="text-uppercase">le brief</h3>
-          <p>Le site en question est un site internet spécialisé dans la vente de stickers de plaques d'immatriculation.</p>
-
-          <h3 class="text-uppercase">le contexte</h3>
-          <p>J'ai travaillé en équipe avec trois camarades de ma formation, nous nous sommes répartis les tâches et je me suis occupé de la page d'accueil.</p>
-
-          <h3 class="text-uppercase">information</h3>
-          <p>Il s'agit d'un projet fictif mais issu d'une réelle entreprise. Le logo du site est alors caché et remplacé par la mention "logo".</p>
-
-          <h3 class="text-uppercase">les réalisations</h3>
-          <p>Avec mon équipe nous avons élaboré la charte graphique. Pour les couleurs, nous avons repris la couleur dominante du logo, le noir, auquel nous sommes venu ajouter une touche de bleu pour le rappel de la couleur des produits, à savoir les stickers pour plaques d'immatriculation. <br>
-          J'ai créé la maquette de la page d'accueil en utilisant Photoshop. J'ai disposé les éléments de manière déstructurés, aérés et dynamiques. J'ai imaginé les animations possibles avec un hover. J'ai également conçu la maquette pour la version mobile.</p>
-
-          <h3 class="text-uppercase">les technologies</h3>
-          <div class="modal-icones">
-            <img src="assets/images/photoshop.png" alt="icone photoshop">
-            <img src="assets/images/trello.png" alt="icone trello">
-          </div>
-
-        </div>
-
-        <div class="text-center mt-5">
-          <img class="w-50" src="assets/images/refonte.png" alt="image accueil refonte site web">
-
-        </div>
-
-        
-
-
-    </div>
-  </div>
-   flappy bird 
-  <div id="flappybird" class="" uk-modal>
-    <div class="uk-modal-dialog">
-
-        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
-
-        <div class="text-center">
-          <img  src="assets/images/flappy-bird.png" alt="image flappy bird">
-        </div>
-
-        <div class="text-center">
-          <h2>Clone du jeu Flappy Bird</h2>
-        </div>
-
-        <div class="container"> 
-
-          <h3 class="text-uppercase">l'objectif</h3>
-          <p>Création d'un mini jeu Flappy bird.</p>
-
-          <h3 class="text-uppercase">le brief</h3>
-          <p>Utilisation de Javascript. Gestion de la gravité, des collisions, du mouvement du personnage au clavier, et affichage du score.</p>
-
-          <h3 class="text-uppercase">information</h3>
-          <p>J'ai suivi un tuto pour réaliser le jeu.</p>
-
-          <h3 class="text-uppercase">les réalisations</h3>
-          <p>- Suivi d'un tuto pour comprendre les étapes à réaliser<br>
-              - Choix des images<br>
-              - Ajout de son au différentes actions (score incrémenté, bruit d'ailes du personnage, game over)<br>
-              - Recréation du jeu en version Harry Potter</p>
-
-          <h3 class="text-uppercase">les technologies</h3>
-          <div class="modal-icones">
-            <img src="assets/images/javascript.png" alt="icone javascript">
-          </div>
-
-        </div>
-
-        <div class="text-center mt-5">
-          <img class="w-50" src="" alt="">
-
-        </div>
-
-        <div class="text-center my-5 btn-modal">
-          <p uk-margin>
-            <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/flappy-bird/" target="_blank">Voir</a>
-          </p>
-        </div>
-
-    </div>
-  </div>
-   thème wp 
-  <div id="themewp" class="" uk-modal>
-    <div class="uk-modal-dialog">
-
-        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
-
-        <div class="text-center">
-          <img  src="assets/images/themewp.png" alt="image theme wordpress">
-        </div>
-
-        <div class="text-center">
-          <h2>Création d'un thème WordPress</h2>
-        </div>
-
-
-        <div class="container"> 
-
-          <h3 class="text-uppercase">l'objectif</h3>
-          <p>Créer un thème WordPress en réalisant sa maquette, puis en l'intégrant avec WordPress.</p>
-
-          <h3 class="text-uppercase">le brief</h3>
-          <p>Utilisation des fonctions PHP de WordPress, rendre le contenu dynamique et personnalisable.</p>
-
-          <h3 class="text-uppercase">information</h3>
-          <p>Il s'agit d'un projet fictif de création de thème sans contenu particulier, le texte est alors généré en Lorem Ipsum.</p>
-
-          <h3 class="text-uppercase">les réalisations</h3>
-          <p>Création d'une maquette sur Adobe XD<br>
-              - Choix des couleurs, typographies, et images<br>
-              - Intégration de la maquette sur WordPress en créant un thème unique<br>
-              - Création de Customs post-types</p>
-
-          <h3 class="text-uppercase">les technologies</h3>
-          <div class="modal-icones">
-            <img src="assets/images/bootstrap.png" alt="icone Bootstrap">
-            <img src="assets/images/wordpress.png" alt="icone WordPress">
-            <img src="assets/images/php.png" alt="icone php">
-            <img src="assets/images/xd.png" alt="icone adode XD">
-          </div>
-
-        </div>
-
-        <div class="text-center my-5 btn-modal">
-          <p uk-margin>
-            <a class="uk-button uk-button-primary uk-button-large" href="#" target="_blank">Voir</a>
-          </p>
-        </div>
-
-    </div>
-  </div>
-   wp ecarts remuneration 
-  <div id="wpinegalite" uk-modal>
-    <div class="uk-modal-dialog">
-
-        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
-
-        <div class="text-center">
-          <img  src="assets/images/wpinegalite.png" alt="image theme wordpress">
-        </div>
-
-        <div class="text-center">
-          <h2>Les écarts de rémunération</h2>
-        </div>
-
-
-        <div class="container"> 
-
-          <h3 class="text-uppercase">l'objectif</h3>
-          <p>Développer un outil de communication pour sensibiliser sur l'importance de l'égalité professionnelle femmes / hommes.</p>
-
-          <h3 class="text-uppercase">le brief</h3>
-          <p>Le thème de ce projet est sur les écarts de rémunération.</p>
-
-          <h3 class="text-uppercase">le contexte</h3>
-          <p>J'ai travaillé en équipe avec deux camarades de ma formation, nous nous sommes répartis les tâches et je me suis occupé de la page d'accueil.</p>
-
-          <h3 class="text-uppercase">les réalisations</h3>
-          <p>Création d'une maquette sur Adobe XD<br>
-              - Réalisation de la planche des tendances<br>
-              - Création d'illustrations, visuels et animations<br>
-              - Intégration sur WordPress avec contenu personnalisable<br>
-              - Création de Customs post-types</p>
-
-          <h3 class="text-uppercase">les technologies</h3>
-          <div class="modal-icones">
-            <img src="assets/images/bootstrap.png" alt="icone Bootstrap">
-            <img src="assets/images/wordpress.png" alt="icone WordPress">
-            <img src="assets/images/php.png" alt="icone php">
-            <img src="assets/images/xd.png" alt="icone adode XD">
-            <img src="assets/images/illustrator.png" alt="icone illustrator">
-          </div>
-
-        </div>
-
-        <div class="text-center my-5 btn-modal">
-          <p uk-margin>
-            <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/les-ecarts-de-remuneration/" target="_blank">Voir</a>
-          </p>
-        </div>
-
-    </div>
-  </div>
-   files explorer 
-  <div id="filesexplorer" uk-modal>
-    <div class="uk-modal-dialog">
-
-        <button class="uk-modal-close-outside uk-close-large" type="button" uk-close></button>
-
-        <div class="text-center">
-          <img  src="assets/images/files-explorer.png" alt="explorateur de fichiers">
-        </div>
-
-        <div class="text-center">
-          <h2>Explorateur de fichiers</h2>
-        </div>
-
-        <div class="container"> 
-
-          <h3 class="text-uppercase">l'objectif</h3>
-          <p>Créer un explorateur de fichiers.</p>
-
-          <h3 class="text-uppercase">le brief</h3>
-          <p>Utiliser PHP pour les fonctionnalités, et styliser l'ensemble.</p>
-
-          <h3 class="text-uppercase">le contexte</h3>
-          <p>J'ai travaillé en binome avec une camarade de ma formation, où nous avons réalisé les tâches ensemble.</p>
-
-          <h3 class="text-uppercase">information</h3>
-          <p></p>
-
-          <h3 class="text-uppercase">les réalisations</h3>
-          <p>Création d'une maquette sur Adobe XD<br>
-              - Détermination du style graphique : couleurs, images, icones, boutons<br>
-              - Développement de fonctions PHP : affichage et navigation des dossiers, actions ouvrir, renommer, copier, coller des fichiers, afficher ou masquer les fichiers cachés, téléchargement de fichiers</p>
-
-          <h3 class="text-uppercase">les technologies</h3>
-          <div class="modal-icones">
-            <img src="assets/images/php.png" alt="icone php">
-            <img src="assets/images/javascript.png" alt="icone jevascript">
-            <img src="assets/images/xd.png" alt="icone adode XD">
-          </div>
-
-        </div>
-
-        <img src="assets/images/fe-basket.png" alt="explorateur de fichiers sur corbeille">
-
-        <div class="text-center my-5 btn-modal">
-          <p uk-margin>
-            <a class="uk-button uk-button-primary uk-button-large" href="https://laurineh.promo-42.codeur.online/files-explorer/" target="_blank">Voir</a>
-          </p>
-        </div>
-
-    </div>
-  </div>
-
-
-
-   fin modal 
-
-</div>-->
-
-
-
 </div>
-
 
 <?php include 'footer.php'; ?>

@@ -35,15 +35,27 @@
                     }
                     .projet-1 {
                         background-image: url('../images/mockup-egalite.png');
+                        &:hover {
+                            transform: scale(2) translate(0, 9.5vh);
+                        }
                     }
                     .projet-2 {
                         background-image: url('../images/mockup-files-explorer.png');
+                        &:hover {
+                            transform: scale(2) translate(-50px, 9.5vh);
+                        }
                     }
                     .projet-3 {
                         background-image: url('../images/mockup-flappybird.png');
+                        &:hover {
+                            transform: scale(2) translate(0, -50px);
+                        }
                     }
                     .projet-4 {
                         background-image: url('../images/mockup-maquette.png');
+                        &:hover {
+                            transform: scale(2) translate(-50px, -11vh);
+                        }
                     }
                 }
             }

@@ -76,13 +76,14 @@
                         }
                     }
                     .illustration-8 {
-                        background-image: url('../images/meduse.png');
+                        background-image: url('../images/meduse.jpg');
                         &:hover {
                             transform: scale(2) translate(0, -50px);
                         }
                     }
                     .illustration-9 {
                         background-image: url('../images/earth.png');
+                        background-size: contain;
                         &:hover {
                             transform: scale(2) translate(0, -50px);
                         }

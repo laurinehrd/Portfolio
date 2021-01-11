@@ -29,26 +29,6 @@
             .sub-content {
                 margin-top: 4rem;
                 font-size: 2rem;
-                // .projets, .illustrations {
-                //     display: flex;
-                //     justify-content: space-around;
-                //     p {
-                //         padding: 1rem;
-                //         color: $primaryLight;
-                //         span {
-                //             display: none;
-                //         }
-                //         &:hover {
-                //             color: white;
-                //             span {
-                //                 img { 
-                //                     width: 6em;
-                //                 }
-                //                 display: block;
-                //             }
-                //         }
-                //     }
-                // }
 
                 .row {
                     .col-lg-6 {
@@ -63,6 +43,7 @@
                             .blur {
                                 background: rgba(255, 255, 255, 0.239); 
                                 backdrop-filter: blur(4px); 
+                                -webkit-backdrop-filter: blur(4px);
                                 height: 100%;
                                 width: 100%;
                                 border-radius: 10px;
@@ -130,9 +111,3 @@
 
 }
 
-// EFFET GROSSISSANT :
-
-// &:hover{
-//     transform: scale(2);
-//     transition: 1.2s;
-// }
