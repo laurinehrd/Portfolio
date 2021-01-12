@@ -11,6 +11,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
+    <!-- Font Raleway -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Laurine Herard | Portfolio</title>
