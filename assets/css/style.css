@@ -890,6 +890,28 @@ body {
   transform: scale(2);
   transition: 1.2s;
 }
+.projets-container .main-section .content-section .row .col-lg-6 .projet:hover .description {
+  display: flex;
+  flex-direction: column;
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet .description {
+  background-color: rgba(255, 255, 255, 0.712);
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 0.5rem;
+  height: 90%;
+  width: 50%;
+  justify-content: center;
+  display: none;
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet .description .icones {
+  display: flex;
+  flex-direction: row;
+}
+.projets-container .main-section .content-section .row .col-lg-6 .projet .description .icones img {
+  width: 2em;
+  padding-right: 0.3rem;
+}
 .projets-container .main-section .content-section .row .col-lg-6 .projet-1 {
   background-image: url("../images/mockup-egalite.png");
 }
@@ -1090,6 +1112,11 @@ body {
     display: none;
   }
 
+  .realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background {
+    margin-bottom: 2rem;
+    height: 30vh;
+  }
+
   .contact-container {
     height: 90vh;
   }
@@ -1120,7 +1147,8 @@ body {
   }
 
   .projets-container {
-    height: 207vh;
+    height: auto;
+    padding-bottom: 12rem;
   }
   .projets-container .main-section .content-section {
     width: 70%;
@@ -1134,6 +1162,9 @@ body {
   }
   .projets-container .main-section .content-section .sub-content-illustration img {
     margin-bottom: 1rem;
+  }
+  .projets-container .main-section .content-section .row .col-lg-2 .illustration {
+    margin-bottom: 2rem;
   }
   .projets-container .main-section .sub-illustration {
     bottom: 10px;
@@ -1221,15 +1252,22 @@ body {
     padding: 0;
   }
 
-  .projets-container .main-section .content-section .sub-content {
+  .realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background {
+    margin-bottom: 2rem;
+  }
+
+  .projets-container .main-section .content-section .row .col-lg-2 .illustration {
+    margin-bottom: 2rem;
+  }
+  .projets-container .main-section .content-section .row .col-lg-6 .projet {
     width: 100%;
   }
-  .projets-container .main-section .content-section .sub-content-illustration {
-    display: block;
-    margin-top: 3rem;
+  .projets-container .main-section .content-section .row .col-lg-6 .projet:hover {
+    transform: none;
   }
-  .projets-container .main-section .content-section .sub-content-illustration img {
-    margin-bottom: 1rem;
+  .projets-container .main-section .content-section .row .col-lg-6 .projet:hover .description {
+    width: 100%;
+    font-size: 1rem;
   }
   .projets-container .main-section .sub-illustration {
     position: initial;

@@ -118,6 +118,24 @@
         }
     }
 
+    // PAGE REALISATIONS
+    .realisation-container {
+        .main-section {
+            .content-section {
+                .sub-content {
+                    .row {
+                        .col-lg-6 {
+                            .background {
+                                margin-bottom: 2rem;
+                                height: 30vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     // CONTACT 
     .contact-container {
         height: 90vh;
@@ -160,7 +178,8 @@
 
     // PAGE PROJETS
     .projets-container {
-        height: 207vh;
+        height: auto;
+        padding-bottom: 12rem;
         .main-section {
             .content-section {
                 width: 70%;
@@ -172,6 +191,13 @@
                     display: block;
                     img {
                         margin-bottom: 1rem;
+                    }
+                }
+                .row {
+                    .col-lg-2 {
+                        .illustration {
+                            margin-bottom: 2rem;
+                        }
                     }
                 }
             }
@@ -295,20 +321,47 @@
         }
     }
 
+    // PAGE REALISATIONS
+    .realisation-container {
+        .main-section {
+            .content-section {
+                .sub-content {
+                    .row {
+                        .col-lg-6 {
+                            .background {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     // PAGE PROJETS
     .projets-container {
         .main-section {
             .content-section {
-                .sub-content {
-                    width: 100%;
-                }
-                .sub-content-illustration {
-                    display: block;
-                    margin-top: 3rem;
-                    img {
-                        margin-bottom: 1rem;
+                .row {
+                    .col-lg-2 {
+                        .illustration {
+                            margin-bottom: 2rem;
+                        }
+                    }
+                    .col-lg-6 {
+                        .projet {
+                            width: 100%;
+                            &:hover{
+                                transform: none;
+                                .description {
+                                    width: 100%;
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
                     }
                 }
+
             }
             .sub-illustration {
                 position: initial;
