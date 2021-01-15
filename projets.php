@@ -26,13 +26,11 @@
                 <i class="fas fa-angle-right"></i> réalisation d'une planche des tendances <br>
                 <i class="fas fa-angle-right"></i> création d'illustrations, visuels et animations <br>
                 <i class="fas fa-angle-right"></i> intégration sur WordPress avec contenu personnalisable <br>
-                <i class="fas fa-angle-right"></i> création de Customs post-types <br>
+                <i class="fas fa-angle-right"></i> création de Customs post-types
               </p>
               <p>
-                <em>Travail en groupe avec deux camarades de la formation.</em>
-              </p>
-              <br>
-              <p>
+                <em>Travail en groupe avec deux camarades de la formation.</em><br><br>
+              
                 <strong>Technologies : </strong>
               </p>
               <div class="icones">
@@ -60,12 +58,10 @@
                   • affichage et navigation des dossiers <br>
                   • actions : ouvrir, renommer, copier, coller des fichiers <br>
                   • afficher ou masquer les fichiers cachés <br>
-                  • téléchargement de fichiers <br>
-              </p>
-              <p>
+                  • téléchargement de fichiers<br><br>
+              
                 <em>Travail en binôme avec une camarade de la formation.</em>
               </p>
-              <br>
               <p>
                 <strong>Technologies : </strong>
               </p>
@@ -94,10 +90,8 @@
                 <i class="fas fa-angle-right"></i> gestion des collisions <br>
                 <i class="fas fa-angle-right"></i> gestion du mouvement du personnage au clavier <br>
                 <i class="fas fa-angle-right"></i> affichage du score <br>
-                <i class="fas fa-angle-right"></i> ajout de son au différentes actions <br>
-              </p>
-              <br>
-              <p>
+                <i class="fas fa-angle-right"></i> ajout de son au différentes actions <br><br>
+              
                 <strong>Technologies : </strong>
               </p>
               <div class="icones">
@@ -116,13 +110,11 @@
               <p>
                 <i class="fas fa-angle-right"></i> élaboration la charte graphique <br>
                 <i class="fas fa-angle-right"></i> maquettage des pages du site sur Photoshop <br>
-                <i class="fas fa-angle-right"></i> création de la maquette en responsive (version mobile) <br>
+                <i class="fas fa-angle-right"></i> création de la maquette en responsive (version mobile)
               </p>
               <p>
-                <em>Travail en groupe avec des camarades de la formation.</em>
-              </p>
-              <br>
-              <p>
+                <em>Travail en groupe avec des camarades de la formation.</em><br><br>
+              
                 <strong>Technologies : </strong>
               </p>
               <div class="icones">

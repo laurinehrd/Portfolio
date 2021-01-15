@@ -1252,10 +1252,19 @@ body {
     padding: 0;
   }
 
+  .realisation-container .main-section .content-section .sub-content {
+    margin-top: 3rem;
+  }
   .realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background {
     margin-bottom: 2rem;
   }
+  .realisation-container .main-section .content-section .sub-content .row .col-lg-6 .background .blur .content {
+    padding-top: 1rem;
+  }
 
+  .projets-container {
+    padding-bottom: 5rem;
+  }
   .projets-container .main-section .content-section .row .col-lg-2 .illustration {
     margin-bottom: 2rem;
   }
@@ -1267,7 +1276,8 @@ body {
   }
   .projets-container .main-section .content-section .row .col-lg-6 .projet:hover .description {
     width: 100%;
-    font-size: 1rem;
+    height: 100%;
+    font-size: 0.8rem;
   }
   .projets-container .main-section .sub-illustration {
     position: initial;
