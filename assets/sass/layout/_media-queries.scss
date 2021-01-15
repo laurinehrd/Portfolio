@@ -26,9 +26,6 @@
     // PRESENTATION 
     .presentation-container {
         .main-section {
-            .content-section {
-                // width: 55%;
-            }
             .sub-illustration {
                 opacity: 0.7;
             }
@@ -258,8 +255,6 @@
                         margin: 20px auto;
                     }
                     h3 {
-                        // opacity: 0.5;
-                        // font-size: 2rem;
                         transform: none;
                         margin: 0px auto 0 auto;
                         writing-mode: horizontal-tb;
@@ -280,8 +275,6 @@
     .presentation-container {
         .main-section {
             .sub-illustration {
-                // position: initial;
-                // opacity: 1;
                 display: none;
                 
             }
