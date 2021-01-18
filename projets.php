@@ -19,6 +19,9 @@
           <div class="projet projet-1">
             <div class="description">
               <p>
+                <strong>Outil de communication sur les écarts de rémunération</strong>
+              </p>
+              <p>
                 <strong>Réalisations : </strong>
               </p>
               <p>
@@ -48,6 +51,9 @@
         <div class="col-lg-6">
           <div class="projet projet-2">
             <div class="description">
+              <p>
+                <strong>Explorateur de fichiers</strong>
+              </p>
               <p>
                 <strong>Réalisations : </strong>
               </p>
@@ -82,6 +88,9 @@
           <div class="projet projet-3">
             <div class="description">
               <p>
+                <strong>Flappy bird</strong>
+              </p>
+              <p>
                 <strong>Réalisations : </strong>
               </p>
               <p>
@@ -104,6 +113,9 @@
         <div class="col-lg-6">
           <div class="projet projet-4">
             <div class="description">
+              <p>
+                <strong>Maquette pour refonte d'un site web</strong>
+              </p>
               <p>
                 <strong>Réalisations : </strong>
               </p>
